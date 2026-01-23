@@ -2,13 +2,8 @@
   "cricket": [
     {
       "c": "Dates",
-      "i": "21 Jan 2026",
+      "i": "Format: **21 Jan 2026**",
       "l": "Date"
-    },
-    {
-      "c": "",
-      "i": "dfasdfasdf",
-      "l": "dsfdsafsdafasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfsdf"
     }
   ],
   "mantis": [
@@ -16,16 +11,6 @@
       "c": "Dates",
       "i": "Jan 21, 2026",
       "l": "Date"
-    },
-    {
-      "c": "Dates",
-      "i": "** TEST ** \n- tesat\n-dfsasdf",
-      "l": "test"
-    },
-    {
-      "c": "Formats",
-      "i": "dfsl;kajsdlfjalsdjfl;kasjdflk;ajsdfkl;jaslk;dfjlk;asjdfl;ajsdflk;ajsldf;jlas;dfjl;asjdfl;sjadf\n**lkjflsdhflkahsdfasdf**\n- klsdjflkajsdfljasdf\n- klajsdfl;jkasdfsadf",
-      "l": "dsfaksdkfkasgagsfgasdgfgasgdakgsfgasgfgasdkgfgasdgfgasgdfgasdfasdfasdf"
     }
   ]
 }
