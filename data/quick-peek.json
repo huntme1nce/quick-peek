@@ -1,4 +1,21 @@
 {
-  "cricket": [{"l":"Date","i":"21 Jan 2026","c":"Dates"}],
-  "mantis": [{"l":"Date","i":"Jan 21, 2026","c":"Dates"}]
+  "cricket": [
+    {
+      "c": "Dates",
+      "i": "21 Jan 2026",
+      "l": "Date"
+    },
+    {
+      "c": "Custom",
+      "i": "test",
+      "l": "test"
+    }
+  ],
+  "mantis": [
+    {
+      "c": "Dates",
+      "i": "Jan 21, 2026",
+      "l": "Date"
+    }
+  ]
 }
