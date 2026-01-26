@@ -111,6 +111,13 @@
       "i": "- All speakers have complete tags with name, position, and company (where known)\n- No spaces inside brackets or parentheses\n- Single spaces between all words\n- \"and\" used instead of \"&\" for positions\n- Oxford comma used for 3+ positions\n- Proper capitalization for all positions\n- No duplicate tags for same speaker\n- No \"null\", \"Unidentified\", or \"Speaker #\" in tags\n- Unknown speakers follow priority order\n- Numbers added only when necessary for identical tags",
       "id": "386e0c0c-f81a-42c1-9a34-b70bb0ca9561",
       "l": "QUALITY CHECKLIST"
+    },
+    {
+      "c": "Formats",
+      "f": false,
+      "i": "Currency Formatting\nUSD Exception (Symbol Format)\n$2.5 billion (Audio: \"Two point five billion dollars\") not $2,500,000\n$2.5 billion (Audio: \"Two and a half billion dollars\") not $2,500,000\nhalf a billion dollars → half a billion dollars (check Fraction rules for financial amount below)\n$1,250,000 (Audio: \"One million two hundred fifty thousand dollars\") not $1.25 million\n$150 million (Audio: \"One hundred fifty million dollars\")\n$0.50 (Audio: “50 cents”) not 50¢\nAll Other Currencies (ISO Code + Space)\nEUR 1.2 billion (European Euro)\nJPY 500 billion (Japanese Yen)\nGBP 800 million (British Pound)\nCAD 500 million (Canadian Dollar)\nRMB 500 million (Chinese Yuan)\nCurrency codes follow the ISO 4217 international standard. For verification of currency codes not listed, refer to:\nISO 4217 List: https://en.wikipedia.org/wiki/ISO_4217 \nCurrency Codes: https://www.xe.com/iso4217.php \nCurrency Symbol Inference\nWhen No Currency Is Dictated: If the transcript contains a number that context clearly indicates as money, the editor must supply the correct currency symbol or code.\n\n\nIf Unclear Which Currency to Use:\nFollow Call Instructions First – If the operator provides specific guidance, always use that.\n\n\nUse Company’s Context – When no specific currency instructions are provided in the call—and only if a figure is given without a dictated currency—infer the currency based on the company’s context. Important: preserve the currency in text, i.e. “Canadian dollars” even after adding the currency symbol.\n\n\nUS company → $\nEU company → EUR\nUK company → GBP\nJapanese company → JPY\nCurrencies/Units Without Numbers\nWhen currency or units of measurement are mentioned without a numerical figure, spell them out in full. Do not use symbols in these cases.\n✅ The discussion was about the US dollar.\n❌ The discussion was about the $.\n✅ He measured it in meters.\n❌ He measured it in m.",
+      "id": "dddec769-8b33-42e6-a25e-96db4935a199",
+      "l": "FINANCIAL FIGURES"
     }
   ],
   "mantis": [
