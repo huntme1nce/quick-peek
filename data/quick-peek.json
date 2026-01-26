@@ -3,24 +3,17 @@
     {
       "c": "Dates",
       "f": false,
-      "i": "21 Jan 2026",
-      "id": "f7ab3621-2355-475e-bfb2-16a3fef8aa9f",
+      "i": "Format : Date Moth Year \n***Ex.*** **21 Jan 2026**",
+      "id": "b07404e3-68a8-4481-a7f8-cc490e9a69da",
       "l": "Date"
-    },
-    {
-      "c": "Formats",
-      "f": false,
-      "i": "**✅ ALWAYS EDIT** Correct amounts, symbols, formatting\n***\"Ex.:*** **2.5 bullion\" → \"$2.5 billion\"**",
-      "id": "e4902d95-f949-4a75-aedf-e2ffec22c599",
-      "l": "Financial Figures"
     }
   ],
   "mantis": [
     {
       "c": "Dates",
       "f": false,
-      "i": "Jan 21, 2026",
-      "id": "f9805993-231f-4771-9380-1051921200cb",
+      "i": "Format : Date Moth Year \n***Ex.*** \n-**Jan 21, 2026**\n-**\"January fifteenth\" → January 15th**\n-**March three\" → March 3**\n-*****\"January fifteenth twenty twenty-four\"*** → January 15th, 2024**\n-*****\"December twenty-first twenty-five\"*** → December 21st, 2025**",
+      "id": "d0cc0eb9-0f2f-4bcd-9033-636f3c6909be",
       "l": "Date"
     }
   ]
