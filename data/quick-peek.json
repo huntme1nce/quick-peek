@@ -251,6 +251,13 @@
       "i": "***Decision Framework**\nCritical transcript content unclear\n- For Speaker names, financials, company names\n-Use guess brackets \n- **[guessed word]**\nMultiple speakers unintelligible section\n- Use crosstalk notation\n- Overlapping dialogue, cannot identify dominant speaker\n- **[crosstalk]**\nNon-English content\n- Use foreign language notation\n- Use capital F for Foreign and lowercase l for language.\n- Any non-English sections\n- **[Foreign language]**\nExtremely distorted audio/clearly inaccurate transcript\n- Use inaudible notation\n- Use lowercase a for audio and lowercase d for distortion\n- Use [inaudible] for English audio that is too unclear or garbled to transcribe accurately. Remove the inaccurate transcript, replace with the notation.\n- **[inaudible]**\nGeneral unclear content\n- Retain raw transcript\n- Non-critical conversational content (not speaker tags, proper nouns/industry terms, and financial figures)x\n- **keep as heard**",
       "id": "f7a0ef25-2cbc-441c-8302-5ae4482861cb",
       "l": "AUDIO QUALITY ISSUES & NOTATION"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "**Research Source Hierarchy**\n- Client Company Master Mapping table (absolute authority for company names)\n- Style Guide specifications\n- Company official websites (About Us pages)\n- SEC filings (for public companies)\n- LinkedIn (for executive information)\n- Financial news (Bloomberg, Reuters, WSJ, Financial Times)\n**Research Process**\nGo beyond search snippets - Always click through to the source page\n- Confirm accuracy and gather full context\n- Cross-check information directly from webpage content\n- Snippets can be misleading, outdated, or incomplete\n**Disambiguating Similar Names**\n- Context-based Google search: \"[company name]\" [main company mentioned]\n- Industry-specific search: \"[company name]\" [industry keyword]\n- Check LinkedIn profiles of speakers for industry context\n- Look for product/service mentions in audio\n- Verify with recent news, SEC filings, financial databases",
+      "id": "72cb6b4f-59cf-4d30-9a5b-7b8f681d4a31",
+      "l": "VERIFICATION & RESEARCH"
     }
   ],
   "mantis": [
