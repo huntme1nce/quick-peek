@@ -428,6 +428,13 @@
       "i": "Before finalizing, verify:\nAll speakers have complete tags with name, position, and company (where known)\nNo spaces inside brackets or parentheses\nSingle spaces between all words\n\"and\" used instead of \"&\" for positions\nOxford comma used for 3+ positions\nProper capitalization for all positions\nNo duplicate tags for same speaker\nNo \"null\", \"Unidentified\", or \"Speaker #\" in tags\nUnknown speakers follow priority order\nNumbers added only when necessary for identical tags\nKEY REMINDERS\nResearch thoroughly - Don't leave names incomplete if findable\nMaintain consistency - Same format for each speaker throughout\nFollow exact format - Brackets for position, parentheses for company\nWhen uncertain - Use the unknown speaker priority order\nStyle Guide is supreme - These rules override all other sources",
       "id": "bbaf8fcc-e965-4f6b-8cb7-e18139ff4b97",
       "l": "QUALITY CHECKLIST"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "**CORE PRINCIPLES**\n**Source Hierarchy (Apply in This Order)**\n- Style Guide specifications - If specifically stated in the Style Guide, that format takes absolute precedence\n- Verify official styling -  Use what is said in the audio and check company websites when unclear\n- Apply standard conventions - Use industry formatting as backup\n\n**UNIVERSAL RULES**\n✅ Include diacritics: José García, Nestlé, São Paulo\n❌ Exclude trademark symbols: No ™, ®, © unless spoken aloud\n🎯Accuracy is critical - One wrong letter can mean a different company\n⚠️ STYLE GUIDE OVERRIDE: When the Style Guide provides specific formatting for any term, company, or name, use that exact format regardless of how it appears elsewhere\n\n**🏢 COMPANY NAMES**\n🎧 If the speaker does not say “Inc.” or any other company name endings, do not insert them into the transcript.\n\n✂️ When company suffixes like Inc, Ltd, Corp, or Co are used/mentioned in the speaker tag/transcript, do not add a period after them.\nExample: MSCI Inc ✅ | MSCI Inc. ❌",
+      "id": "73a76386-0563-417a-80b2-07efea475368",
+      "l": "PROPER NOUNS & INDUSTRY TERMS"
     }
   ]
 }
