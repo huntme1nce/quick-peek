@@ -55,6 +55,13 @@
       "i": "-1. Is this a Core Pillar item? (**Speaker tag, proper noun, financial figure, sentence structure**)\n**✅ YES → Use the audio. Edit accordingly while applying Style Guide rules**\n❌ NO → Go to step 2\n-2. Is this a speech pattern? (verbal crutches, fillers, contractions, direct speech/implied dialogues, etc.)\n**✅ YES → Keep the transcript as-is (ignore audio differences)**\n❌ NO → Go to step 3\n-3. Is this general speech/casual conversation?\n**✅ YES → Keep transcript as-is**\n❌ NO → Use judgment. If it falls under Core Pillars, edit accordingly",
       "id": "74c3de82-ea2e-4c3e-b220-d783da3c272f",
       "l": "What to Edit or Retain"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "**Operator**\nThe neutral host managing technical flow (opening/closing, instructions, Q&A queue)\n*****Do not tag as “Moderator”*****",
+      "id": "f15da53b-7a15-429c-985e-1d222832ac2f",
+      "l": "SPEAKER TYPES"
     }
   ],
   "mantis": [
