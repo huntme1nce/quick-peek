@@ -244,6 +244,13 @@
       "i": "**Paragraph Rules**\n- Maximum 6 lines per paragraph\n- Break at natural speech boundaries\n- Maintain speaker intent and flow\n- Short paragraphs (3-5 lines) acceptable\n**Content Flow**\n- Ensure logical progression of ideas\n- Maintain conversational authenticity\n- Break long monologues at natural pause points",
       "id": "d5966d28-42e4-4335-937f-bdecb32beb53",
       "l": "Paragraph Structure"
+    },
+    {
+      "c": "Formats",
+      "f": false,
+      "i": "***Decision Framework**\nCritical transcript content unclear\n- For Speaker names, financials, company names\n-Use guess brackets \n- **[guessed word]**\nMultiple speakers unintelligible section\n- Use crosstalk notation\n- Overlapping dialogue, cannot identify dominant speaker\n- **[crosstalk]**\nNon-English content\n- Use foreign language notation\n- Use capital F for Foreign and lowercase l for language.\n- Any non-English sections\n- **[Foreign language]**",
+      "id": "f7a0ef25-2cbc-441c-8302-5ae4482861cb",
+      "l": "AUDIO QUALITY ISSUES & NOTATION"
     }
   ],
   "mantis": [
