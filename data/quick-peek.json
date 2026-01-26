@@ -283,7 +283,7 @@
     {
       "c": "Formats",
       "f": false,
-      "i": "NUMERICAL FIGURES",
+      "i": "NUMERICAL FIGURES\n**Spell out numbers 1-9**\n- Use words for small numbers\n- one, five, eight\n**Use numerals for 10+**\n- Use digits for larger numbers\n- 10, 25, 103\n**Ordinal numbers**\n- Same rule applies\n- first, second, 10th, 11th\n**Add commas**\n- For numbers 1,000 and up\n- 1,200; 15,000; 100,000\n**Spoken abbreviations**\n- Convert K, M, B to full numeric\n- 60K → 60,000\n- 2 mil → 2 million\n- 3.2B → 3.2 billion\n**Clean decimals stated (Speaker uses decimal point in speech)**\n- billion/million format\n- \"Two point five billion→ 2.5 billion\n- \"One point two five million\" → 1.25 million",
       "id": "bd79e8cd-4dd4-4412-a6c8-3494b8d5994f",
       "l": "FINANCIAL FIGURES"
     }
