@@ -237,6 +237,13 @@
       "i": "**Fix These Issues:**\n- Run-on sentences: Break at natural conjunction points\n- Missing punctuation: Add periods, question marks\n- Comma usage: Add for compound sentences and clarity\n**Starter Conjunctions:**\nDerive discretion for removal from sentence beginnings based on whether it will alter the sentence’s meaning.\n- \"And we're seeing strong growth\" → \"We're seeing strong growth\"\nCan imply an emphasis or may need to be cut in case of a run-on sentence.\n- \"But, I think the market will recover\"\nImplies previous statement’s sentiment or essence should remain in mind.\n**Verbal Crutches/Filler Management**\n**Remove These:**\n- \"um\" (most instances)\n- \"uh\" (most instances)\n**Preserve These:**\n- \"you know\" (emphasis)\n- \"I mean\" (clarification)\n- \"like\" (conversational connector)\n- \"actually\" (emphasis/correction)\n- \"well\" (thoughtful transition)",
       "id": "cded2c94-ac5c-45d7-8cbf-6b8bc4f8c7e5",
       "l": "Sentence Construction"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "**Paragraph Rules**\n- Maximum 6 lines per paragraph\n- Break at natural speech boundaries\n- Maintain speaker intent and flow\n- Short paragraphs (3-5 lines) acceptable\n**Content Flow**\n- Ensure logical progression of ideas\n- Maintain conversational authenticity\n- Break long monologues at natural pause points",
+      "id": "d5966d28-42e4-4335-937f-bdecb32beb53",
+      "l": "Paragraph Structure"
     }
   ],
   "mantis": [
