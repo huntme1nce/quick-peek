@@ -540,6 +540,27 @@
       "i": "Use what was spoken in the audio — if the acronym was dictated, retain the acronym (e.g., \"EPS\"); if the full term was spoken, use the full term (e.g., \"earnings per share\").\n** Essential Acronyms:**\n- EPS: earnings per share\n-EBITDA: earnings before interest, taxes, depreciation, and amortization\n- P/E: price-to-earnings ratio\n- ROI: return on investment\n- M&A: mergers and acquisitions\n- IPO: initial public offering\n- SaaS: software as a service\n- CRM: customer relationship management\n- ERP: enterprise resource planning\n- CapEx: capital expenditures\n- OpEx: operating expense\n**Financial Metrics:**\n- basis points and percentage points\nAudio: 100 basis points ✅100 basis points ❌100 bps\nAudio: one percentage point ✅ 1 percentage point ❌1% or 1 pp\n- YoY: year-over-year\n- QoQ: quarter-over-quarter\n- CAGR: compound annual growth rate\n- ARR: annual recurring revenue\n- MRR: monthly recurring revenue",
       "id": "4c2d83bf-3e9b-4ddc-bef3-2d32a1e087f0",
       "l": "Financial Acronyms & Terms"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "SEC: Securities and Exchange Commission\nFDA: Food and Drug Administration\nGAAP: Generally Accepted Accounting Principles\nIFRS: International Financial Reporting Standards",
+      "id": "0fe44b4a-a055-454d-b08e-c5a0c88987dd",
+      "l": "Regulatory Bodies & Standards"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "Conference call titles and event names should only use title case if they exactly match an officially published event name. Otherwise, use sentence case.\n✅ Correct Examples:\n\"Welcome to Apple’s Q3 2024 earnings conference call\"\n\"Thank you for joining Microsoft’s fourth quarter results call\"\n\"Welcome to our Annual Investor Day presentation\"\n\"This is Tesla’s Q1 2025 financial results conference call\"\n\"Welcome to JPMorgan Chase second quarter earnings call\"",
+      "id": "800ab1b8-2ea1-4c96-8f4c-4ba78eade152",
+      "l": "CONFERENCE CALL & EVENT NAMES (updated)"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "Formal Title Capitalization Rule\nWhen formal executive titles are spoken in the audio content, maintain proper capitalization as if written formally.\nExamples:\nAudio: \"Our chief executive officer will now provide an update\"\n✅ Transcript: \"Our Chief Executive Officer will now provide an update\"\nAudio: \"The chief financial officer reported strong results\"\n✅ Transcript: \"The Chief Financial Officer reported strong results\"\nAudio: \"Our chief operating officer oversees daily operations\"\n✅ Transcript: \"Our Chief Operating Officer oversees daily operations\"",
+      "id": "b528663c-d752-4662-924f-0b2d4c336f7c",
+      "l": "Designation/Title Capitalization"
     }
   ]
 }
