@@ -484,6 +484,20 @@
       "i": "Use lowercase for company segments, departments, and internal groups by default. Capitalize only if the name is confirmed to be an official business unit, trademarked entity, or formal brand name as reflected on the company’s website or official materials.\n*****Examples*****\n**Lowercase (Default):**\n✅ investor relations\n✅ procurement team\n✅ risk management\n✅ strategy department\n✅ finance team\n**Capitalize (Verified Proper Nouns Only):**\n✅ Pharma Solutions\n✅ Morgan Health\n✅ Global Shares\n✅ Amazon Web Services\n**Quick Verification **\nCheck company website for official capitalization\n- When uncertain, use lowercase\n- Only capitalize when certain it's an official business unit name",
       "id": "5ce53b49-2233-4b42-8da9-5e511662ed0f",
       "l": "Company Departments & Divisions"
+    },
+    {
+      "c": "Formats",
+      "f": false,
+      "i": "Use the form spoken in the audio (e.g., \"EMEA\" vs. \"Europe, Middle East, Africa\").\n- Cities: New York, San Francisco, London, Tokyo\n- Countries: United States, United Kingdom, Germany, Japan\n- Regions: North America, EMEA (Europe, Middle East, Africa), APAC (Asia-Pacific)\n**Countries and Locations**\nGeneral Rule: Acronyms that refer to locations should include periods for clarity and formality in financial transcripts.\nStandard Format with Periods: (Use whichever was dictated)\n✅ U.S. (United States) \n✅ U.K. (United Kingdom)\n✅ D.C. (Washington, D.C.)\n✅ L.A. (Los Angeles)\n✅ N.Y. (New York)\nCompany Name/Proper Noun Exception\n❗ Important Exception: When a country acronym is part of an official company name, follow the company's official styling regardless of the general location rule.\nCompany Name Examples:\n❌ U.S. Foods → ✅ US Foods (official company styling)\n❌ U.S. Steel → ✅ US Steel (official company styling)\n❌ U.S. Bank → ✅ US Bank (official company styling)",
+      "id": "e659cebd-7d07-4bca-87bd-a94a4c68664c",
+      "l": "GEOGRAPHIC REFERENCES"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "LinkedIn Search – Best source for the most current job titles and career history\nCompany Websites – Check the About Us, Leadership, or Executive Team pages for official listings\nRecent Press Releases – Look for announcements about executive appointments, promotions, or departures\nSEC Filings – For public companies, review 10-K, 10-Q, or DEF 14A filings for verified executive information",
+      "id": "860cfaa9-3773-4cf6-be9f-e32b3aeb9d26",
+      "l": "Executive Names Research Tips"
     }
   ]
 }
