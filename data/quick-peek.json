@@ -617,6 +617,20 @@
       "i": "✅ Years (2024, 2025) - 2024 not '24 (expand years)\n✅ FY 2024 or fiscal year 2024 (depends on how it was dictated)\n✅ Quarters (Q1, Q2, Q3, Q4) - Match exactly how it's said. Don't convert between form:\n\tUse Q4 if dictated as “Q four”; use fourth quarter if dictated as “fourth quarter”; use quarter four if dictated as “quarter four”; use 2Q if dictated as “two Q”\n✅ Comparative periods (year-over-year, quarter-over-quarter)",
       "id": "d9f24aca-3ee8-461f-a4d7-b51304169dc0",
       "l": "Time Periods"
+    },
+    {
+      "c": "Formats",
+      "f": false,
+      "i": "Basis Points:\n100 basis points = 1% (but stay true to audio)\n📌Although 100 basis points equals 1%, always transcribe it as “100 basis points” if that’s what is said in the audio. Do not convert it to “1%.\nAlways spell out “basis points” exactly as heard in the audio. Do not abbreviate it to “bps,” even when it is paired with a number.\nExample: \"Margin expanded by 150 basis points to 22.5%\"\nFinancial Metrics:\n✅ EBITDA (not E.B.I.T.D.A.)\n✅ EPS (not E.P.S.)\n✅ P/E ratio (not P.E. ratio)\n✅ ROI (not R.O.I.)\n✅ M&A (not M and A)\n✅ IPO (Initial Public Offering)\n✅ SaaS (Software as a Service)\n✅ CRM (Customer Relationship Management)\n✅ ERP (Enterprise Resource Planning)",
+      "id": "8b9b08c0-398f-4f78-91dc-d662e2e488a9",
+      "l": "Special Financial Terms"
+    },
+    {
+      "c": "Formats",
+      "f": false,
+      "i": "Use unit abbreviations (e.g., GW for gigawatts) only when a numerical figure is present. If no number is attached, retain the full term as spoken in the raw transcript.",
+      "id": "cc3fe300-e021-4a77-9852-91e9068cfe63",
+      "l": "Technical Units and Common Numerical Errors"
     }
   ]
 }
