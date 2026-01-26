@@ -596,6 +596,27 @@
       "i": "When a currency is mentioned without an accompanying numerical figure, always use the expanded format instead of the symbol.\n✅ Examples\nCorrect: The discussion was about the US dollar.\nIncorrect: The discussion was about the $.\n\nCorrect: He said the Canadian dollar is strong right now.\nIncorrect: He said the CAD is strong right now.\nPercentages\n✅ 15.5% (not fifteen point five percent)\n✅ 0.25% (include leading zero)\n✅ 100% (not one hundred percent)\nGrowth and Changes\n✅ up 18% year-over-year\n✅ increased 25% quarter-over-quarter\n✅ grew from $100 million to $150 million\n✅ expanded by 200 basis points (not 2% if audio is “200 basis points”)\n✅ 3 percentage points (not 3%)",
       "id": "5cd6ca61-ce56-48a5-9a2c-b0bebaef1515",
       "l": "Currencies Without Numerical Figures"
+    },
+    {
+      "c": "Formats",
+      "f": false,
+      "i": "Numerical ranges with same units\nUse a hyphen (-) to represent “to” when the speaker dictates a range between two numbers.\nApply the appropriate symbol ($, %, etc.) to both numbers in the range, even if the speaker only says it once.\nExamples:\n✅ Revenue guidance of $2.4 billion-$2.5 billion\n → Dictated as: “two point four to two point five billion dollars”\n → Use a hyphen and repeat the $ symbol before both values.\n\n\n✅ EBITDA margin of 22%-25%\n → Dictated as: “twenty-two percent to twenty-five percent”\n → Replace “to” with a hyphen and apply % to both ends of the range.\n\n\n✅ EPS guidance of $3.50–$3.75\n → Dictated as: “three fifty to three seventy-five”\n → Transcribe using a hyphen, with the $ symbol shown before both figures.\n\nWhen \"between...and\" is dictated: Retain \"and\"\n✅ Expected growth between 15% and 20% (dictated \"and\",  retain \"and\")\nValue changes over time: Retain \"to\" (not a range)\n✅ grew from $100 million to $150 million (this is not a range, but a change in value over time, indicating a $50 million increase)\nDifferent units: Use \"to\" not hyphen\n✅ 17% to $1.1 billion (not \"17%-$1.1 billion\")\n✅ improved from 13% to $1.3 billion (different units)\n\nException for Positive/Negative Ranges: \nWhen a range contains both positive/plus (+) and negative/minus (-) numbers, retain \"to\" for readability to avoid double hyphens.\n✅ +2% to -3% (clear and readable)\n❌ +2%--3% (confusing double hyphen)",
+      "id": "92bebf31-bb10-423c-a5ae-da2665d389d0",
+      "l": "Range Formatting"
+    },
+    {
+      "c": "Formats",
+      "f": false,
+      "i": "Use lowercase \"x\" (not uppercase \"X\") to indicate multiples or ratios. Note that multiples are different from number of instances.\n✅ 15.2x revenue multiple \n✅ 3.5x debt-to-equity ratio\n✅ 1.8x book value\n✅ 8.5x EBITDA multiple",
+      "id": "bd0118a9-7978-4f8d-8d32-7e9418d68f51",
+      "l": "Ratios and Multiples"
+    },
+    {
+      "c": "Formats",
+      "f": false,
+      "i": "✅ Years (2024, 2025) - 2024 not '24 (expand years)\n✅ FY 2024 or fiscal year 2024 (depends on how it was dictated)\n✅ Quarters (Q1, Q2, Q3, Q4) - Match exactly how it's said. Don't convert between form:\n\tUse Q4 if dictated as “Q four”; use fourth quarter if dictated as “fourth quarter”; use quarter four if dictated as “quarter four”; use 2Q if dictated as “two Q”\n✅ Comparative periods (year-over-year, quarter-over-quarter)",
+      "id": "d9f24aca-3ee8-461f-a4d7-b51304169dc0",
+      "l": "Time Periods"
     }
   ]
 }
