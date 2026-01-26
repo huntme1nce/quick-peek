@@ -128,7 +128,7 @@
     },
     {
       "c": "Formats",
-      "f": false,
+      "f": true,
       "i": "- **Mathematical Operations:** Use + Symbol\n\"10 ml plus 10 ml of a drug\" → 10 ml + 10 ml of a drug\n- **Estimates/Approximations:** Use + After Numbers\n\"seven point five plus years\" → 7.5+ years\n\"eight plus percent\" → 8%+\n- **Positive/Negative Numbers:** Use +/- Before Numbers\n\"positive eight percent\" → +8%\n\"negative eight percent\" → -8%\n- **Plus or Minus:** Use ± Symbol\nONLY when speakers explicitly say \"plus or minus\"\n\"Plus or minus 75%\" → ±75%\n- **Contextual/Narrative Use:** Retain as Words\n\"Revenue plus operating costs\" → Revenue plus operating costs",
       "id": "da4560b8-7717-484e-87ef-9c928e3d9b9b",
       "l": "Plus, Minus, and Numerical Symbol Usage"
