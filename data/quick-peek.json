@@ -143,9 +143,16 @@
     {
       "c": "Formats",
       "f": false,
-      "i": "**Financial Amounts: Do Not** convert to Actual Dollar Values; only convert to Actual Dollar Values if there is an explicit numeric reference in audio, i.e. “two hundred million dollars” → $200 million\nquarter of a million dollars → quarter of a million dollars\nhalf a million seats → half a million seats\nhalf a billion dollars → half a billion dollars\nMarket Share/Revenue Fractions: Use Numerical Format\na third of the market share → 1/3 of the market share\na quarter of the revenue → 1/4 of the revenue\nRatio-Style Fractions: Use XX/XX Format\nFifty-fifty → 50/50\nContext example: \"It used to be 60/40. Now, it's half and half\" → \"It used to be 60/40. Now, it's 50/50\"\nBeginning of Sentence Exception\nException: At the beginning of a sentence → A third of the market share...\nStandard: Mid-sentence → This is 1/3 of the market share\nNon-numerical Fractions: Keep as is\nhalf the time (retain as is)\nHalf-mile, half-dozen (retain as is)\n\"half of the population\", \"half of the employees\" (retain as is)",
+      "i": "**Financial Amounts: Do Not** convert to Actual Dollar Values; only convert to Actual Dollar Values if there is an explicit numeric reference in audio, i.e. “two hundred million dollars” → $200 million\n- quarter of a million dollars → quarter of a million dollars\n- half a million seats → half a million seats\n- half a billion dollars → half a billion dollars\n**Market Share/Revenue Fractions:** Use Numerical Format\n- a third of the market share → 1/3 of the market share\n- a quarter of the revenue → 1/4 of the revenue\n**Ratio-Style Fractions:** Use XX/XX Format\n- Fifty-fifty → 50/50\n- Context example: \"It used to be 60/40. Now, it's half and half\" → \"It used to be 60/40. Now, it's 50/50\"\n**Beginning of Sentence Exception**\n- Exception: At the beginning of a sentence → A third of the market share...\n- Standard: Mid-sentence → This is 1/3 of the market share\n**Non-numerical Fractions:** Keep as is\n- half the time (retain as is)\n- Half-mile, half-dozen (retain as is)\n- \"half of the population\", \"half of the employees\" (retain as is)",
       "id": "8e4669cf-de8a-4892-9c3b-5f99064de518",
       "l": "Fraction Rules for Financial Figures"
+    },
+    {
+      "c": "Formats",
+      "f": false,
+      "i": "Gigabytes vs. Gigabits:\nGigabyte (GB) = Storage capacity measurement\nGigabit (Gb) = Data transfer speed measurement\n✅ Correct Usage:\n\"Our servers have 500 GB of storage\" (Audio: \"five hundred gigabytes of storage\")\n\"The network speed is 10 Gb per second\" (Audio: \"ten gigabits per second\")\n❌ Common Errors:\n\"500 Gb of storage\" (should be GB)\n\"10 GB per second transfer\" (should be Gb)",
+      "id": "3322bd96-b744-4846-8cdc-e895fd579289",
+      "l": "Critical Data Unit Distinctions"
     }
   ],
   "mantis": [
