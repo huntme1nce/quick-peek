@@ -561,6 +561,20 @@
       "i": "Formal Title Capitalization Rule\nWhen formal executive titles are spoken in the audio content, maintain proper capitalization as if written formally.\nExamples:\nAudio: \"Our chief executive officer will now provide an update\"\n✅ Transcript: \"Our Chief Executive Officer will now provide an update\"\nAudio: \"The chief financial officer reported strong results\"\n✅ Transcript: \"The Chief Financial Officer reported strong results\"\nAudio: \"Our chief operating officer oversees daily operations\"\n✅ Transcript: \"Our Chief Operating Officer oversees daily operations\"",
       "id": "b528663c-d752-4662-924f-0b2d4c336f7c",
       "l": "Designation/Title Capitalization"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "Trademark and Copyright Symbols\nDo not include ™, ®, ℠, © symbols unless spoken aloud\nException: If Style Guide specifically includes these symbols, use as written\n✅ Correct Usage:\n\"We're excited about what's coming next for Salesforce.\"\n\"Our platform runs on Amazon Web Services.\"\n\"We've partnered with McKinsey & Company for strategic planning.\"\n❌ Incorrect Usage:\n\"We're excited about what's coming next for Salesforce™.\"\n\"Our platform runs on Amazon Web Services®.\"\nDiacritics and Special Characters\nAlways include when part of official spelling:\nExecutive names: José García - CEO\nCompany names: Nestlé S.A.\nGeographic references: São Paulo operations\nProduct names: Häagen-Dazs brand performance\nTechnical Implementation:\nIf unsure how to type, copy and paste from reliable source\nInitials on People’s Names\nWhen a speaker dictates the initials of a person’s name (letter by letter), write them with periods and no spaces.\nExamples:\nSpeaker says \"J K Rowling\" → transcribe as \"J.K. Rowling\"\nSpeaker says \"J R R Tolkien\" → transcribe as \"J.R.R. Tolkien\"",
+      "id": "65c29bc2-b0c3-43d3-a25e-ea013de7d610",
+      "l": "SPECIAL FORMATTING RULES"
+    },
+    {
+      "c": "Custom",
+      "f": true,
+      "i": "Before You Finalize:\nChecked Style Guide for specific formatting? ⚠️ MOST IMPORTANT\nUsed exact spelling as spoken in audio?\nVerified official company styling if uncertain?\nIncluded all diacritics for proper nouns?\nExcluded trademark symbols unless spoken?\nUsed correct capitalization priority rules?\nApplied geographic acronym rules correctly?\nFollowed speaker tag format (no colon)?\nResearched executive names if uncertain?",
+      "id": "03c27f0f-5518-4767-82fe-f109dde48e2c",
+      "l": "QUICK REFERENCE CHECKLIST"
     }
   ]
 }
