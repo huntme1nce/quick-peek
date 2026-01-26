@@ -216,6 +216,13 @@
       "i": "**Include diacritics:** José García, Nestlé, São Paulo\n**Exclude trademarks:** No ™, ®, © unless spoken aloud\n**Initials:** J.K. Rowling, J.R.R. Tolkien (periods, no spaces)",
       "id": "6cb065b0-e734-407f-b479-a60f6ff06552",
       "l": "Special Formatting"
+    },
+    {
+      "c": "Formats",
+      "f": false,
+      "i": "Conference call titles and event names should be properly capitalized as proper nouns, in welcome notes and introductions. Elsewhere in the transcript, use sentence case.\n*****✅ Correct Examples:*****\n- \"Welcome to Apple's Q3 2024 Earnings Conference Call\"\n- \"Thank you for joining Microsoft's Fourth Quarter Results Call\"\n- \"Welcome to our Annual Investor Day presentation\"\n- \"This is Tesla's Q1 2025 Financial Results Conference Call\"",
+      "id": "60d64a63-3ae0-4e26-b4cc-6d9523450d36",
+      "l": "Conference Call & Event Names"
     }
   ],
   "mantis": [
