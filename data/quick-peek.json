@@ -134,6 +134,13 @@
       "i": "- **Add numbers only when multiple speakers have identical tags**\n*****Examples:***** \nModerator 1, Moderator 2, [Analyst 1], [Analyst 2], [Unknown Speaker 1], [Unknown Speaker 2]\n- **No numbers needed when companies differ:** [Analyst] (AT&T) **and** [Analyst] (Morgan Stanley)",
       "id": "53154949-404e-4d57-8889-0ae70e86c632",
       "l": "ST Numbering Rules"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "**Two Positions**\n✅ CORRECT: [CEO and President]\nUse \"and\" spelled out\n❌ INCORRECT:\n[CEO & President] - Don't use ampersand\n[CEO&President] - No spaces with ampersand\n[CEOandPresident] - Missing spaces\n[CEP, President] - Use of comma instead of “and”\n\n**Three or More Positions**\n✅ CORRECT: [Executive Chairman, President, and CEO]\nUse Oxford comma (comma before \"and\")\nUse \"and\" spelled out\n❌ INCORRECT:\n[Executive Chairman, President and CEO] - Missing Oxford comma\n[Executive Chairman, President, & CEO] - Using ampersand\n[Executive Chairman, President & CEO] - No Oxford comma and using ampersand",
+      "id": "10b0d081-e7d2-4b8f-985d-00a548c5b791",
+      "l": "POSITION/TITLE FORMATTING"
     }
   ]
 }
