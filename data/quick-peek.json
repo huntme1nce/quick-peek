@@ -48,6 +48,13 @@
       "i": "**Core Editing Principles**\n**ALWAYS EDIT (Critical Transcript Content)**\n**Speaker Tags:** Format as FirstName LastName [Position] (Company), or Operator\n**Financial Figures:** Correct amounts, symbols, and formatting\n**Company Names:** Verify spelling against Style Guide/official sources\n**Executive Names:** Verify spelling and titles\n**Industry Terms:** Ensure technical accuracy when transcript-critical\n**Punctuation & Sentence Structure:* Correct obvious errors (e.g., misplaced question marks), and fix transcript cuts by merging or splitting sentences appropriately\n***Fillers & Conjunctions:** Remove um, uh and unnecessary starters (And, But, So), only if doing so does not alter / impact the meaning of the sentence.\n**Run-on Sentences:** Break at natural conjunction points\n**Terminal Punctuation:** Ensure all sentences end correctly\n**Paragraph Splicing:** Keep paragraphs concise (max 6 lines) for readability\n**DO NOT EDIT (Preserve Authenticity)**\n**Speaker Intent:** Do not change meaning\n**Meaningful Fillers:** Keep you know, I mean, like, actually, well\n**False Starts:** Retain natural speech patterns\n**Conversational Flow:** Maintain authentic communication\n**Implied Dialogue/Direct Speech:** Do not add quotation marks to reported speech or implied dialogue, retain as is",
       "id": "cde959a6-fe3b-4ebb-b67e-e59e215b3889",
       "l": "EDITING PHILOSOPHY & DECISION FRAMEWORK"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "-1. Is this a Core Pillar item? (**Speaker tag, proper noun, financial figure, sentence structure**)\n✅ YES → Use the audio. Edit accordingly while applying Style Guide rules\n❌ NO → Go to step 2\n-2. Is this a speech pattern? (verbal crutches, fillers, contractions, direct speech/implied dialogues, etc.)\n✅ YES → Keep the transcript as-is (ignore audio differences)\n❌ NO → Go to step 3\n-3. Is this general speech/casual conversation?\n✅ YES → Keep transcript as-is\n❌ NO → Use judgment. If it falls under Core Pillars, edit accordingly",
+      "id": "74c3de82-ea2e-4c3e-b220-d783da3c272f",
+      "l": "What to Edit or Retain"
     }
   ],
   "mantis": [
