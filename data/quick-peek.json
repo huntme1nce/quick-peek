@@ -421,6 +421,13 @@
       "i": "- Add numbers only when multiple speakers have identical tags\n- Examples: Moderator 1, Moderator 2, [Analyst 1], [Analyst 2], [Unknown Speaker 1], [Unknown Speaker 2]\nNo numbers needed when companies differ: [Analyst] (AT&T) and [Analyst] (Morgan Stanley)",
       "id": "cbea3370-53d9-4f5c-835c-0f9d2f346a20",
       "l": "ST Numbering Rules:"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "Before finalizing, verify:\nAll speakers have complete tags with name, position, and company (where known)\nNo spaces inside brackets or parentheses\nSingle spaces between all words\n\"and\" used instead of \"&\" for positions\nOxford comma used for 3+ positions\nProper capitalization for all positions\nNo duplicate tags for same speaker\nNo \"null\", \"Unidentified\", or \"Speaker #\" in tags\nUnknown speakers follow priority order\nNumbers added only when necessary for identical tags\nKEY REMINDERS\nResearch thoroughly - Don't leave names incomplete if findable\nMaintain consistency - Same format for each speaker throughout\nFollow exact format - Brackets for position, parentheses for company\nWhen uncertain - Use the unknown speaker priority order\nStyle Guide is supreme - These rules override all other sources",
+      "id": "bbaf8fcc-e965-4f6b-8cb7-e18139ff4b97",
+      "l": "QUALITY CHECKLIST"
     }
   ]
 }
