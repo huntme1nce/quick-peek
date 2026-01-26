@@ -125,6 +125,13 @@
       "i": "**Numbers and Numerical Figures**\n- 1-9: Spell out (one, five, eight)\n- 10+: Use numerals (10, 25, 103)\n- Ordinal Numbers: first-ninth (spelled out); 10th+ numerals\n- Commas: Use in numbers 1,000+ (1,200; 15,000; 100,000)\n- Spoken abbreviations: Convert to full numeric\n- 60K → 60,000\n- 2 mil → 2 million\n- 3.2B → 3.2 billion\n**Percentages**\n- **Format:** 15.5% (not fifteen point five percent)\n- **Include leading zero for values less than one:** 0.25%\n- **Whole numbers:** 100% (not one hundred percent)",
       "id": "971b88b3-8c94-45fa-9235-a53eba670d82",
       "l": "Numbers and Percentages"
+    },
+    {
+      "c": "Formats",
+      "f": false,
+      "i": "- **Mathematical Operations:** Use + Symbol\n\"10 ml plus 10 ml of a drug\" → 10 ml + 10 ml of a drug\n- **Estimates/Approximations:** Use + After Numbers\n\"seven point five plus years\" → 7.5+ years\n\"eight plus percent\" → 8%+\n- **Positive/Negative Numbers:** Use +/- Before Numbers\n\"positive eight percent\" → +8%\n\"negative eight percent\" → -8%\n- **Plus or Minus:** Use ± Symbol\nONLY when speakers explicitly say \"plus or minus\"\n\"Plus or minus 75%\" → ±75%\n- **Contextual/Narrative Use:** Retain as Words\n\"Revenue plus operating costs\" → Revenue plus operating costs",
+      "id": "da4560b8-7717-484e-87ef-9c928e3d9b9b",
+      "l": "Plus, Minus, and Numerical Symbol Usage"
     }
   ],
   "mantis": [
