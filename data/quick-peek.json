@@ -474,9 +474,16 @@
     {
       "c": "Custom",
       "f": false,
-      "i": "Decision Tree for Multiple Formats:\nStyle Guide Specification:\nIf specified in Style Guide, use that format exactly\nThis overrides all other formatting considerations\nPlease check the official website’s About Us, About the Company, or About section.\nIf there are multiple formats in the About Us page of the official website, please follow the following hierarchy:\nAll Caps vs. Title Case:\nChoose ALL CAPS (makes proper nouns more distinguishable)\nExample: \"COMPANY\" over \"Company\"\nAll Caps vs. Stylized Branding:\nChoose stylized version (reflects official branding)\nExample: \n\"ComPany\" over \"COMPANY\" if that's official styling\n“Com-Pany” over “COMPANY” if that's official styling\n“Compãny” over “COMPANY” if that's official styling",
+      "i": "**Decision Tree for Multiple Formats:**\n**Style Guide Specification:**\n- If specified in Style Guide, use that format exactly\n- This overrides all other formatting considerations\n**Please check the official website’s About Us, About the Company, or About **section.\n**If there are multiple formats in the About Us page of the official website, please follow the following hierarchy:**\n- All Caps vs. Title Case:\nChoose ALL CAPS (makes proper nouns more distinguishable)\n*****Example:***** \"COMPANY\" over \"Company\"\n- All Caps vs. Stylized Branding:\nChoose stylized version (reflects official branding)\nExample: \n- \"ComPany\" over \"COMPANY\" if that's official styling\n- “Com-Pany” over “COMPANY” if that's official styling\n- “Compãny” over “COMPANY” if that's official styling",
       "id": "daf61142-53f2-4128-ab7d-42c5a1eb555b",
       "l": "CAPITALIZATION PRIORITY RULES"
+    },
+    {
+      "c": "Formats",
+      "f": false,
+      "i": "Use lowercase for company segments, departments, and internal groups by default. Capitalize only if the name is confirmed to be an official business unit, trademarked entity, or formal brand name as reflected on the company’s website or official materials.\nExamples\nLowercase (Default):\n✅ investor relations\n✅ procurement team\n✅ risk management\n✅ strategy department\n✅ finance team\nCapitalize (Verified Proper Nouns Only):\n✅ Pharma Solutions\n✅ Morgan Health\n✅ Global Shares\n✅ Amazon Web Services\nQuick Verification \nCheck company website for official capitalization\nWhen uncertain, use lowercase",
+      "id": "5ce53b49-2233-4b42-8da9-5e511662ed0f",
+      "l": "Company Departments & Divisions"
     }
   ]
 }
