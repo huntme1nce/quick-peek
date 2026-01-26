@@ -407,6 +407,13 @@
       "i": "When the audio is AI-generated with a single voice representing all speakers:\n- Identify speakers using contextual clues from the conversation content\nListen for:\n-- Self-introductions (\"This is John from Microsoft...\")\n-- References to speakers by name (\"Thank you, Sarah, for that question...\")\n-- Role-specific statements (operator instructions, analyst questions, executive responses)\n-- Transition phrases indicating speaker changes\n- Do not assume speaker continuity based on voice similarity alone\n- Verify speaker attribution through:\n--Content consistency with speaker's role\n--Q&A flow patterns (question from analyst → answer from executive)\n--Operator cues about who's speaking next\n- When uncertain, use contextual markers:\n--Company representatives discuss internal metrics\n--Analysts ask questions about guidance\n--Operators manage call flow",
       "id": "d8358a42-8856-4326-8394-ca9863c0babf",
       "l": "AI-Generated Audio"
+    },
+    {
+      "c": "Custom",
+      "f": true,
+      "i": "Before submitting, verify all items:\nSpeaker Tags\n☑️ Proper format without colons\n☑️ Consistent labeling throughout transcript\n☑️ Accurate names and titles per audio\n☑️ Format: First Name Last Name [Position] (Company) or First Name Last Name (Company)\nFinancial Figures\n☑️ Currency symbols placed correctly ($)\n☑️ Percentages use % symbol\n☑️ Ranges formatted properly (hyphen for same units, \"to\" for different)\n☑️ Basis points vs. percentage points used correctly\n☑️ Years written in full (2024, not '24)\n☑️ Numbers 1-9 spelled out, 10+ as numerals\nProper Nouns/Industry Terms\n☑️ Company names follow speaker's usage with correct spelling\n☑️ Executive names and titles accurate\n☑️ Industry terms correctly formatted\n☑️ Include diacritics (José García, Nestlé)\n☑️ Exclude trademark symbols unless spoken\nPunctuation & Language\n☑️ Questions end with (?), statements with (.)\n☑️ Natural speech patterns preserved\n☑️ No unnecessary editing of conversational elements\n☑️ Only edit Core Pillars + terminal punctuation\nOverall Quality\n☑️ Consistent formatting throughout\n☑️ Research verified for unfamiliar terms\n☑️ Financial accuracy maintained",
+      "id": "c591f233-fd64-4c1f-b806-c02aad07cce3",
+      "l": "MASTER QUALITY CHECKLIST"
     }
   ]
 }
