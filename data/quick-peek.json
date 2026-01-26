@@ -435,6 +435,13 @@
       "i": "**CORE PRINCIPLES**\n**Source Hierarchy (Apply in This Order)**\n- Style Guide specifications - If specifically stated in the Style Guide, that format takes absolute precedence\n- Verify official styling -  Use what is said in the audio and check company websites when unclear\n- Apply standard conventions - Use industry formatting as backup\n\n**UNIVERSAL RULES**\n✅ Include diacritics: José García, Nestlé, São Paulo\n❌ Exclude trademark symbols: No ™, ®, © unless spoken aloud\n🎯Accuracy is critical - One wrong letter can mean a different company\n⚠️ STYLE GUIDE OVERRIDE: When the Style Guide provides specific formatting for any term, company, or name, use that exact format regardless of how it appears elsewhere\n\n**🏢 COMPANY NAMES**\n🎧 If the speaker does not say “Inc.” or any other company name endings, do not insert them into the transcript.\n\n✂️ When company suffixes like Inc, Ltd, Corp, or Co are used/mentioned in the speaker tag/transcript, do not add a period after them.\nExample: MSCI Inc ✅ | MSCI Inc. ❌",
       "id": "73a76386-0563-417a-80b2-07efea475368",
       "l": "PROPER NOUNS & INDUSTRY TERMS"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "**Major Companies:**\n- Microsoft Corporation (or Microsoft)\n- Apple Inc. (not Apple Corp.)\n- Alphabet Inc. (Google's parent company)\n- Meta Platforms, Inc. (formerly Facebook)\n- NVIDIA Corporation (note all-caps styling)\n- Salesforce, Inc.\n- Adobe Inc.\n- ServiceNow, Inc.\n- Workday, Inc.\n- Autodesk, Inc.\n**Cloud Platforms:**\n- Amazon Web Services (AWS)\n- Microsoft Azure\n- Google Cloud Platform (GCP)\n- Oracle Cloud Infrastructure (OCI)\n**Semiconductor Companies:**\n- NVIDIA Corporation\n- Advanced Micro Devices, Inc. (AMD)\n- Intel Corporation\n- Qualcomm Incorporated\n- Broadcom Inc.",
+      "id": "e5c97c2c-1f27-4419-9d61-a7c75b22dfd1",
+      "l": "Technology Sector"
     }
   ]
 }
