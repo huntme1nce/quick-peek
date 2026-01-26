@@ -512,6 +512,13 @@
       "i": "Drug Name Capitalization Rules\n⚠️ Style Guide specifications override all other rules\n**Generic Drug Names (Industry Terms):**\nAlways lowercase: acetaminophen, atorvastatin, metformin, ibuprofen\n**Branded Drug Names (Proper Nouns):**\nFollow official styling: Tylenol, Lipitor, Advil, HUMIRA\n**If there are multiple official stylings:**\nIf the choice is between DRUG (all caps) and Drug (title case): ➤ Use DRUG (all caps) for clearer recognition as a proper noun\nIf the choice is between DRUG, Drug, and stylized forms like Dr-Ug, DrUg, DRug, etc.: ➤ Use the stylized official version",
       "id": "2b176d65-8697-4648-ab6f-b4fdc1127ad3",
       "l": "HEALTHCARE & PHARMACEUTICAL TERMINOLOGY"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "**Trial Phases:**\n- Style Guide format takes precedence\n- phase I, phase II, phase III, phase III-A, phase III-B, phase IV (lowercase \"phase\")\n**Treatment Classifications:**\n- first-line treatment, refractory, metastatic\n**Clinical Endpoints:**\n- overall survival (OS)\n- progression-free survival (PFS)\n**Regulatory Terms**\n- FDA processes: BLA, NDA, PDUFA date, Priority Review\n- Commercial terms: patent cliff, generic competition, biosimilar\n- Market access: formulary coverage, launch preparations",
+      "id": "07cc675c-026f-47b6-a96c-a3b39167a499",
+      "l": "Clinical Development Terms"
     }
   ]
 }
