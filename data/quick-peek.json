@@ -97,6 +97,13 @@
       "i": "When the audio is AI-generated with a single voice representing all speakers:\n**Identify speakers using contextual clues from the conversation content**\nListen for:\n- Self-introductions (\"This is John from Microsoft...\")\n- References to speakers by name (\"Thank you, Sarah, for that question...\")\n- Role-specific statements (operator instructions, analyst questions, executive responses)\n- Transition phrases indicating speaker changes\n**Do not assume speaker continuity based on voice similarity alone**\n**Verify speaker attribution through:**\n- Content consistency with speaker's role\n- Q&A flow patterns (question from analyst → answer from executive)\n- Operator cues about who's speaking next\n**When uncertain, use contextual markers:**\n- Company representatives discuss internal metrics\n- Analysts ask questions about guidance\n- Operators manage call flow",
       "id": "563f6bc2-2814-43cc-b5b3-a7813c24cf50",
       "l": "AI-Generated Audio"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "Use exactly as introduced by speaker\nRetain abbreviations if spoken (Audio: J&J, use J&J not Johnson & Johnson)\nInclude official styling when verified",
+      "id": "dadd36f1-e3dc-47d1-b552-2529ebaf4dbc",
+      "l": "Substitute Speakers"
     }
   ],
   "mantis": [
