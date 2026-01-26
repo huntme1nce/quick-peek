@@ -83,6 +83,13 @@
       "i": "**Always refer to the list of expected attendees as the primary source.**\n**Finding Complete Names**\n- **First/Last name only in audio:** Use Google and context clues to find first/last name, or leverage company-provided speaker hints (if available)\n**Verification sources:**\n- Company websites (About Us, Leadership pages)\n- LinkedIn profiles\n- Recent press releases\n- SEC filings for public companies\n**Examples**\n- Audio says \"Bob\" → Research finds → Bob Leasure [CEO and President] (Inotiv)\n- Audio says \"Fred\" → Research finds Frederick Bell → Fred Bell [President and COO] (EMX Royalty)\n**Name Consistency**\n**Use one consistent tag per speaker** throughout transcript\n**Follow the name as spoken:** If a speaker uses a nickname instead of their full name, transcribe the nickname as is (e.g., Rob instead of Robert)\"",
       "id": "a8bafcc6-c921-4c40-afbe-417f696ce80b",
       "l": "NAME RESEARCH & VERIFICATION"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "Identify dominant speaker\nUse **[crosstalk]** for unintelligible overlapping speech\nMark unclear sections appropriately",
+      "id": "95c1f1c4-2642-453f-bcd2-cae7d8af5324",
+      "l": "Overlapping Speakers"
     }
   ],
   "mantis": [
