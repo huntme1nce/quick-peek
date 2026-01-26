@@ -442,6 +442,20 @@
       "i": "**Major Companies:**\n- Microsoft Corporation (or Microsoft)\n- Apple Inc. (not Apple Corp.)\n- Alphabet Inc. (Google's parent company)\n- Meta Platforms, Inc. (formerly Facebook)\n- NVIDIA Corporation (note all-caps styling)\n- Salesforce, Inc.\n- Adobe Inc.\n- ServiceNow, Inc.\n- Workday, Inc.\n- Autodesk, Inc.\n**Cloud Platforms:**\n- Amazon Web Services (AWS)\n- Microsoft Azure\n- Google Cloud Platform (GCP)\n- Oracle Cloud Infrastructure (OCI)\n**Semiconductor Companies:**\n- NVIDIA Corporation\n- Advanced Micro Devices, Inc. (AMD)\n- Intel Corporation\n- Qualcomm Incorporated\n- Broadcom Inc.",
       "id": "e5c97c2c-1f27-4419-9d61-a7c75b22dfd1",
       "l": "Technology Sector"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "- JPMorgan Chase & Co.\n- Goldman Sachs Group, Inc.\n- Morgan Stanley\n- Bank of America Corporation\n- Wells Fargo & Company\n- BlackRock, Inc.\n- The Vanguard Group\n- Fidelity Investments\n- State Street Corporation\n- T. Rowe Price Group, Inc.",
+      "id": "d742434d-89b9-4e57-aa54-518937bd4f7a",
+      "l": "Financial Services"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "- Johnson & Johnson (note the ampersand)\n- Pfizer Inc.\n- Merck & Co., Inc. (note comma after \"Co.\")\n- Roche Holding AG (Swiss company)\n- Novartis AG\n- Amgen Inc.\n- Gilead Sciences, Inc.\n- Moderna, Inc.",
+      "id": "68423007-07a8-4d41-9724-30df258bba00",
+      "l": "Healthcare & Pharmaceutical"
     }
   ]
 }
