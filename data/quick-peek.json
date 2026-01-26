@@ -195,6 +195,20 @@
       "i": "- Big 4 (accounting firms)\n- FAANG (Facebook, Apple, Amazon, Netflix, Google)\nDo not include the parenthetical expansion in-transcript.\n- MAMAA (Meta, Apple, Microsoft, Amazon, Alphabet)\nDo not include the parenthetical expansion in-transcript.\n- Fortune 500, S&P 500, Dow Jones/DJIA\n- G7, G20, BRICS",
       "id": "f4dee0ee-a178-4917-97c4-cc7cff8761bc",
       "l": "Industry Groups & Sectors"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "**Generic Drug Names:** Always lowercase\n- acetaminophen, atorvastatin, metformin, ibuprofen\n**Branded Drug Names: Follow official styling**\n- Tylenol, Lipitor, Advil, HUMIRA\n- If there are multiple official stylings:\nIf the choice is between DRUG (all caps) and Drug (title case): ➤ Use DRUG (all caps) for clearer recognition as a proper noun\nIf the choice is between DRUG, Drug, and stylized forms like Dr-Ug, DrUg, DRug, etc.: ➤ Use the stylized official version\n**Clinical Terms:**\nphase I, phase II, phase III (lowercase \"phase\")\nfirst-line treatment, overall survival (OS), progression-free survival (PFS)",
+      "id": "c235f59c-d3be-4a41-8127-690bfd20b2a9",
+      "l": "Healthcare & Drug Terminology"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "**Generational References:**\n- Use official company language first. If investor materials or official branding use \"5th Gen,\" follow that exact style\n- If no official reference exists, default to numeric + hyphen (e.g., 5th-gen processors, 3rd-gen platforms)\n- Use spelled-out forms only if official branding dictates it (e.g., Fifth Generation iPad)\n- As a noun, use \"5th generation\" (e.g., We are transitioning to the 5th generation of AI processors.)\n- Do not use casual variants like 5th gen (no hyphen)\n- Apply the same logic across sectors (e.g., 3rd-gen vaccines, 2nd-gen EVs)",
+      "id": "d27f2bd4-d664-4e7c-95e1-53d407d0fce9",
+      "l": "Technology Terms"
     }
   ],
   "mantis": [
