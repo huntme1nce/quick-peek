@@ -76,6 +76,13 @@
       "i": "**Two Positions**\n**✅ CORRECT:** [CEO and President]\nUse \"and\" spelled out\n**❌ INCORRECT:**\n[CEO & President] - Don't use ampersand\n[CEO&President] - No spaces with ampersand\n[CEOandPresident] - Missing spaces\n**Three or More Positions**\n**✅ CORRECT:** [Executive Chairman, President, and CEO]\nUse Oxford comma (comma before \"and\")\nUse \"and\" spelled out\n**❌ INCORRECT:**\n[Executive Chairman, President and CEO] - Missing Oxford comma\n[Executive Chairman, President, & CEO] - Using ampersand\n[Executive Chairman, President & CEO] - No Oxford comma and using ampersand\n**Title Abbreviations**\nUse recognized acronyms in tags: CEO, CFO, COO, CMO, VP, EVP\nEven if speaker says full title: \"Chief Executive Officer\" → [CEO]\nImportant: Only abbreviate in speaker tags, NOT in transcript text\n**Title Capitalization**\n**✅ CORRECT:**\n[Mining Research Analyst] - All major words capitalized\n[Senior Analyst] - Proper capitalization\n[Equity Research Senior Associate] - Proper capitalization\n**❌ INCORRECT:**\n[Senior analyst] - Lowercase \"analyst\"\n[mining research analyst] - Improper capitalization",
       "id": "b18d05f6-b8bd-4cef-a624-2f0600f949e4",
       "l": "POSITION/TITLE FORMATTING"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "Always refer to the list of expected attendees as the primary source.\n3.4.1 Finding Complete Names\nFirst/Last name only in audio: Use Google and context clues to find first/last name, or leverage company-provided speaker hints (if available)\nVerification sources:\nCompany websites (About Us, Leadership pages)\nLinkedIn profiles\nRecent press releases\nSEC filings for public companies\n3.4.2 Examples\nAudio says \"Bob\" → Research finds → Bob Leasure [CEO and President] (Inotiv)\nAudio says \"Fred\" → Research finds Frederick Bell → Fred Bell [President and COO] (EMX Royalty)\n3.4.3 Name Consistency\nUse one consistent tag per speaker throughout transcript\nFollow the name as spoken: If a speaker uses a nickname instead of their full name, transcribe the nickname as is (e.g., Rob instead of Robert)\"",
+      "id": "a8bafcc6-c921-4c40-afbe-417f696ce80b",
+      "l": "NAME RESEARCH & VERIFICATION"
     }
   ],
   "mantis": [
