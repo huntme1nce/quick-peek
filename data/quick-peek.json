@@ -27,6 +27,13 @@
       "i": "Financial Amounts: **Do Not convert to Actual Dollar Values; only convert to Actual Dollar Values if there is an explicit numeric reference in audio,** i.e. “two hundred million dollars” → $200 million\nquarter of a million dollars → quarter of a million dollars\nhalf a million seats → half a million seats\nhalf a billion dollars → half a billion dollars\n**Market Share/Revenue Fractions:** Use Numerical Format\na third of the market share → 1/3 of the market share\na quarter of the revenue → 1/4 of the revenue\n**Ratio-Style Fractions:** Use XX/XX Format\nFifty-fifty → 50/50\nContext example: \"It used to be 60/40. Now, it's half and half\" → \"It used to be 60/40. Now, it's 50/50\"\n**Beginning of Sentence Exception**\nException: At the beginning of a sentence → A third of the market share...\nStandard: Mid-sentence → This is 1/3 of the market share\n**Non-numerical Fractions**: Keep as is\nhalf the time (retain as is)\nHalf-mile, half-dozen (retain as is)\n\"half of the population\", \"half of the employees\" (retain as is)",
       "id": "9fa18563-2885-4dea-8f0d-32072e533742",
       "l": "Fraction Rules for Financial Figures"
+    },
+    {
+      "c": "Formats",
+      "f": false,
+      "i": "***Basis Points vs Percentage Points**\n**Basis Points:** Always spell out **\"basis points\"** (not \"bps\")\n- \"Margin expanded by 150 basis points to 22.5%\"\n**Percentage Points:** Use **“percentage points”** only when dictated as such (**not** %).\n- “Revenue increased by 3 percentage points” (not 3%)\n**Multiples and Ratios**\n- Use lowercase “x” for financial multiples and ratios.\n✅ “15.2x revenue multiple” \n✅ “3.5x debt-to-equity ratio”\n✅ “increased by 5x” (audio: “five times”)\n\nDo **not** confuse multiples with the number of instances. Use **“times”** when referring to frequency or repetition.\n✅ “We met five times last quarter.” ❌ “We met 5x last quarter”\n✅ “The stock price rose three times in a row.”\n**Time Periods**\n- **Years:** 2024, 2025 (not '24 - expand years)\n- **Quarters:** Default to this format — Q1, Q2, Q3, Q4; **Do Not** deviate to “1Q” or “third quarter” or “quarter two”)\n**Comparative periods:** year-over-year, quarter-over-quarter",
+      "id": "3a50fc46-a92e-4218-942d-96337161bd06",
+      "l": "Financial Metrics"
     }
   ],
   "mantis": [
