@@ -188,6 +188,13 @@
       "i": "**Location Acronyms (without periods):**\n- US, UK, DC, LA, NY\n**Regions:**\n- Follow the below standardizations:\nNorth America\nLatin America\nWestern Europe\nEastern Europe\nEurope, Middle East, Africa\nCentral Europe, Middle East, Africa\nAsia Pacific (all below)\nJapan\nAsia-ex\nSouth-East Asia\nAustralia/NZ",
       "id": "7bf721b4-48fb-40b3-9c69-027c81a2d0e2",
       "l": "Geographic and Industry References"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "- Big 4 (accounting firms)\n- FAANG (Facebook, Apple, Amazon, Netflix, Google)\nDo not include the parenthetical expansion in-transcript.\n- MAMAA (Meta, Apple, Microsoft, Amazon, Alphabet)\nDo not include the parenthetical expansion in-transcript.\n- Fortune 500, S&P 500, Dow Jones/DJIA\n- G7, G20, BRICS",
+      "id": "f4dee0ee-a178-4917-97c4-cc7cff8761bc",
+      "l": "Industry Groups & Sectors"
     }
   ],
   "mantis": [
