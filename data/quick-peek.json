@@ -258,6 +258,13 @@
       "i": "**Research Source Hierarchy**\n- Client Company Master Mapping table (absolute authority for company names)\n- Style Guide specifications\n- Company official websites (About Us pages)\n- SEC filings (for public companies)\n- LinkedIn (for executive information)\n- Financial news (Bloomberg, Reuters, WSJ, Financial Times)\n**Research Process**\nGo beyond search snippets - Always click through to the source page\n- Confirm accuracy and gather full context\n- Cross-check information directly from webpage content\n- Snippets can be misleading, outdated, or incomplete\n**Disambiguating Similar Names**\n- Context-based Google search: \"[company name]\" [main company mentioned]\n- Industry-specific search: \"[company name]\" [industry keyword]\n- Check LinkedIn profiles of speakers for industry context\n- Look for product/service mentions in audio\n- Verify with recent news, SEC filings, financial databases",
       "id": "72cb6b4f-59cf-4d30-9a5b-7b8f681d4a31",
       "l": "VERIFICATION & RESEARCH"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "Before Finalizing, Verify:\n**Speaker Tags:**\n☐ Proper format without colons\n ☐ Consistent labeling throughout\n ☐ Accurate names and titles per audio\n ☐ Format: FirstName LastName [Position] (Company)\n**Financial Figures:**\n☐ Currency symbols placed correctly\n ☐ Percentages use % symbol\n ☐ Ranges formatted properly (use “to”)\n ☐ Basis points vs percentage points used correctly\n ☐ Years in full (2024, not '24)\n ☐ Numbers 1-9 spelled out, 10+ as numerals\n**Company Names/Industry Terms:**\n☐ Follow Style Guide specifications exactly\n ☐ Correct spelling verified\n ☐ Include diacritics where applicable\n ☐ Exclude trademark symbols unless spoken\n**Language & Structure:**\n☐ Questions end with (?), statements with (.)\n ☐ Distracting fillers removed (\"um,\" \"uh\")\n ☐ Starter conjunctions removed from sentence beginnings\n ☐ Run-on sentences fixed\n ☐ Oxford comma applied consistently\n ☐ Maximum 6 lines per paragraph\n**Overall Quality:**\n☐ Professional readability maintained\n ☐ Authentic tone preserved\n ☐ Transcript-critical accuracy verified\n ☐ Consistent formatting throughout",
+      "id": "26caf9b5-c3a6-4c3f-a8cd-e76ebd7ecc9b",
+      "l": "QUALITY CONTROL CHECKLIST"
     }
   ],
   "mantis": [
