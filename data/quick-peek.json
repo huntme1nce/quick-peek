@@ -3,7 +3,7 @@
     {
       "c": "Dates",
       "f": false,
-      "i": "Format : Date Moth Year \n***Ex.*** **21 Jan 2026**",
+      "i": "Format : Date Moth Year \n***Ex.*** **21 Jan 2026**\nStandard Format: Default to “DD Month YYYY” for all dates\nExamples:\n\"January fifteenth\" → 15 January 2025\n\"March three\" → 3 March 2025\n\"January fifteenth twenty twenty-four\" → 15 January 2024\nYear Expansion: Always expand to four digits\n\"twenty-five\" (referring to year) → 2025\n\"twenty-four\" (referring to year) → 2024\nDate with Ordinal vs. Cardinal: Default to cardinal\n\"twenty-first\" → 21\nMonth Names: Spell out in full\nJan → January\nNumerical-only dates:\n\"twelve ten twenty five\" → 10 December 2025\n\"three fifteen twenty four\" → 15 March 2024\n\nWell-known Date Exceptions:\n\"nine eleven\" → 9/11 (referring to September 11, 2001)",
       "id": "b07404e3-68a8-4481-a7f8-cc490e9a69da",
       "l": "Date"
     }
