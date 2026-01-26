@@ -141,6 +141,13 @@
       "i": "**Two Positions**\n✅ CORRECT: [CEO and President]\nUse \"and\" spelled out\n❌ INCORRECT:\n[CEO & President] - Don't use ampersand\n[CEO&President] - No spaces with ampersand\n[CEOandPresident] - Missing spaces\n[CEP, President] - Use of comma instead of “and”\n\n**Three or More Positions**\n✅ CORRECT: [Executive Chairman, President, and CEO]\nUse Oxford comma (comma before \"and\")\nUse \"and\" spelled out\n❌ INCORRECT:\n[Executive Chairman, President and CEO] - Missing Oxford comma\n[Executive Chairman, President, & CEO] - Using ampersand\n[Executive Chairman, President & CEO] - No Oxford comma and using ampersand",
       "id": "10b0d081-e7d2-4b8f-985d-00a548c5b791",
       "l": "POSITION/TITLE FORMATTING"
+    },
+    {
+      "c": "Formats",
+      "f": false,
+      "i": "If a speaker is introduced with a recognized C-suite role stated in full, use the standard recognized acronym in the tag.\n⚠️ Even if the speaker says the full title (“Chief Executive Officer”), tag as [CEO].\n📌 Important: Only abbreviate in speaker tags, never in the transcript text.\nCEO – Chief Executive Officer\nCFO – Chief Financial Officer\nCOO – Chief Operating Officer\nCMO – Chief Marketing Officer\nCTO – Chief Technology Officer\nCIO – Chief Information Officer\nCHRO – Chief Human Resources Officer\nCAIO – Chief Artificial Intelligence Officer\nVP – Vice President\nEVP – Executive Vice President\n\nIf a non-C-suite speaker is introduced with a role stated in full and its acronym could represent multiple positions, do not use the acronym in tags—retain as full title instead. However, if the non-C-suite role is explicitly dictated in acronym form, use the acronym.\nCSO – Could mean Chief Strategy Officer, Chief Security Officer, or Chief Sustainability Officer\nCRO – Could mean Chief Revenue Officer or Chief Risk Officer\nCCO – Could mean Chief Commercial Officer, Chief Compliance Officer, or Chief Communications Officer\nCLO – Could mean Chief Legal Officer or Chief Learning Officer\nCDO – Could mean Chief Data Officer or Chief Digital Officer\nCPO – Could mean Chief Product Officer or Chief Procurement Officer\n\n✅ Final Note:\n Always prioritize clarity and accuracy in speaker tags.\nUse acronyms only when they are explicitly introduced in the audio or are recognized C-suite titles with standard abbreviations.\nFor non-C-suite roles with acronyms that could mean multiple positions, default to the full title to avoid confusion.\n⚠️Remember: Abbreviations apply only to speaker tags, never to transcript text.",
+      "id": "fa00958f-dc7f-4cd9-9820-295bf6e585b1",
+      "l": "Title Abbreviations/Acronyms"
     }
   ]
 }
