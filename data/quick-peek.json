@@ -209,6 +209,13 @@
       "i": "**Generational References:**\n- Use official company language first. If investor materials or official branding use \"5th Gen,\" follow that exact style\n- If no official reference exists, default to numeric + hyphen (e.g., 5th-gen processors, 3rd-gen platforms)\n- Use spelled-out forms only if official branding dictates it (e.g., Fifth Generation iPad)\n- As a noun, use \"5th generation\" (e.g., We are transitioning to the 5th generation of AI processors.)\n- Do not use casual variants like 5th gen (no hyphen)\n- Apply the same logic across sectors (e.g., 3rd-gen vaccines, 2nd-gen EVs)",
       "id": "d27f2bd4-d664-4e7c-95e1-53d407d0fce9",
       "l": "Technology Terms"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "**Include diacritics:** José García, Nestlé, São Paulo\n**Exclude trademarks:** No ™, ®, © unless spoken aloud\n**Initials:** J.K. Rowling, J.R.R. Tolkien (periods, no spaces)",
+      "id": "6cb065b0-e734-407f-b479-a60f6ff06552",
+      "l": "Special Formatting"
     }
   ],
   "mantis": [
