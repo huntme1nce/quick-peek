@@ -34,6 +34,13 @@
       "i": "***Basis Points vs Percentage Points**\n**Basis Points:** Always spell out **\"basis points\"** (not \"bps\")\n- \"Margin expanded by 150 basis points to 22.5%\"\n**Percentage Points:** Use **“percentage points”** only when dictated as such (**not** %).\n- “Revenue increased by 3 percentage points” (not 3%)\n**Multiples and Ratios**\n- Use lowercase “x” for financial multiples and ratios.\n✅ “15.2x revenue multiple” \n✅ “3.5x debt-to-equity ratio”\n✅ “increased by 5x” (audio: “five times”)\n\nDo **not** confuse multiples with the number of instances. Use **“times”** when referring to frequency or repetition.\n✅ “We met five times last quarter.” ❌ “We met 5x last quarter”\n✅ “The stock price rose three times in a row.”\n**Time Periods**\n- **Years:** 2024, 2025 (not '24 - expand years)\n- **Quarters:** Default to this format — Q1, Q2, Q3, Q4; **Do Not** deviate to “1Q” or “third quarter” or “quarter two”)\n**Comparative periods:** year-over-year, quarter-over-quarter",
       "id": "3a50fc46-a92e-4218-942d-96337161bd06",
       "l": "Financial Metrics"
+    },
+    {
+      "c": "Formats",
+      "f": false,
+      "i": "**Mathematical Operations: Use + Symbol**\n- \"10 ml plus 10 ml of a drug\" → 10 ml + 10 ml of a drug\n**Estimates/Approximations: Use + After Numbers**\n- \"seven point five plus years\" → 7.5+ years\n- \"eight plus percent\" → 8%+\n**Positive/Negative Numbers: Use +/- Before Numbers**\n- \"positive eight percent\" → +8%\n- \"negative eight percent\" → -8%\n**Plus or Minus: Use ± Symbol**\n- ONLY when speakers explicitly say \"plus or minus\"\n- \"Plus or minus 75%\" → ±75%\n**Contextual/Narrative Use: Retain as Words**\n- \"Revenue plus operating costs\" → Revenue plus operating costs",
+      "id": "966ce20e-8055-42fc-88c0-d30a54e25ee1",
+      "l": "Plus, Minus, and Numerical Symbol Usage"
     }
   ],
   "mantis": [
