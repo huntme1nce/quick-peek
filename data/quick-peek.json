@@ -36,6 +36,13 @@
       "i": "**Standard Time Format: 9:00 A.M./P.M. format**",
       "id": "b1eb8ee6-e83b-471d-abb8-3765928f11ab",
       "l": "TIME"
+    },
+    {
+      "c": "Formats",
+      "f": false,
+      "i": "**Numerical ranges with same units**\n**Use a hyphen (-) to represent “to” when the speaker dictates a range between two numbers.**\n**Apply the appropriate symbol ($, %, etc.) to both numbers in the range, even if the speaker only says it once.**\n*****Examples:*****\n✅ Revenue guidance of $2.4 billion-$2.5 billion\n → Dictated as: “two point four to two point five billion dollars”\n → Use a hyphen and repeat the $ symbol before both values.\n✅ EBITDA margin of 22%-25%\n → Dictated as: “twenty-two percent to twenty-five percent”\n → Replace “to” with a hyphen and apply % to both ends of the range.\n✅ EPS guidance of $3.50–$3.75\n → Dictated as: “three fifty to three seventy-five”\n → Transcribe using a hyphen, with the $ symbol shown before both figures.\n**When \"between...and\" is dictated: Retain \"and\"**\n✅ Expected growth between 15% and 20% (dictated \"and\",  retain \"and\")\n**Value changes over time: Retain \"to\" (not a range)**\n✅ grew from $100 million to $150 million (this is not a range, but a change in value over time, indicating a $50 million increase)\n**Different units: Use \"to\" not hyphen**\n✅ 17% to $1.1 billion (not \"17%-$1.1 billion\")\n✅ improved from 13% to $1.3 billion (different units)\n\n**Exception for Positive/Negative Ranges: **\nWhen a range contains both positive/plus (+) and negative/minus (-) numbers, retain \"to\" for readability to avoid double hyphens.\n✅ +2% to -3% (clear and readable)\n❌ +2%--3% (confusing double hyphen)",
+      "id": "c5432bd4-2201-477b-81e9-c9d527a4f4f0",
+      "l": "RANGES"
     }
   ]
 }
