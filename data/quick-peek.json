@@ -481,7 +481,7 @@
     {
       "c": "Formats",
       "f": false,
-      "i": "Use lowercase for company segments, departments, and internal groups by default. Capitalize only if the name is confirmed to be an official business unit, trademarked entity, or formal brand name as reflected on the company’s website or official materials.\nExamples\nLowercase (Default):\n✅ investor relations\n✅ procurement team\n✅ risk management\n✅ strategy department\n✅ finance team\nCapitalize (Verified Proper Nouns Only):\n✅ Pharma Solutions\n✅ Morgan Health\n✅ Global Shares\n✅ Amazon Web Services\nQuick Verification \nCheck company website for official capitalization\nWhen uncertain, use lowercase",
+      "i": "Use lowercase for company segments, departments, and internal groups by default. Capitalize only if the name is confirmed to be an official business unit, trademarked entity, or formal brand name as reflected on the company’s website or official materials.\n*****Examples*****\n**Lowercase (Default):**\n✅ investor relations\n✅ procurement team\n✅ risk management\n✅ strategy department\n✅ finance team\n**Capitalize (Verified Proper Nouns Only):**\n✅ Pharma Solutions\n✅ Morgan Health\n✅ Global Shares\n✅ Amazon Web Services\n**Quick Verification **\nCheck company website for official capitalization\n- When uncertain, use lowercase\n- Only capitalize when certain it's an official business unit name",
       "id": "5ce53b49-2233-4b42-8da9-5e511662ed0f",
       "l": "Company Departments & Divisions"
     }
