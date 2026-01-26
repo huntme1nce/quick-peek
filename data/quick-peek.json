@@ -6,6 +6,13 @@
       "i": "**Standard Format: Default to “DD Month YYYY” for all dates**\nEx.:\n-**\"January fifteenth\" → 15 January 2025**\n-**\"March three\" → 3 March 2025**\n-**\"January fifteenth twenty twenty-four\" → 15 January 2024**\n**Year Expansion: Always expand to four digits**\n-**\"twenty-five\" (referring to year) → 2025**\n-**\"twenty-four\" (referring to year) → 2024**\n**Date with Ordinal vs. Cardinal: Default to cardinal**\n-**\"twenty-first\" → 21**\n**Month Names: Spell out in full**\n-**Jan → January**\n**Numerical-only dates:**\n-**\"twelve ten twenty five\" → 10 December 2025**\n-**\"three fifteen twenty four\" → 15 March 2024**\n\n**Well-known Date Exceptions:**\n-**\"nine eleven\" → 9/11 (referring to September 11, 2001)**",
       "id": "b07404e3-68a8-4481-a7f8-cc490e9a69da",
       "l": "Date"
+    },
+    {
+      "c": "",
+      "f": false,
+      "i": "**Standard Format**\n***Transcribe time as h:mmAM/PM; no periods and no space***\n✅ “9 in the evening” → 9:00PM**\n**Time in a Series**\n**Repeat the unit with each number.**\n✅ “People have about a 20-minute, 25-minute, maybe a 30-minute drive”**\n**Time Ranges**\n**Use hyphen with no spaces.**\n✅ “They went to work from 9:00AM-5:00PM”\n**Follow standard time format when converting:**\n✅ “7:00AM to midnight” → 7:00AM–12:00AM\n✅ “7:00AM to 12 noon” → 7:00AM–12:00PM\n**Non-Clock Durations**\n**For minutes, hours, or months not tied to a clock:**\n✅ “eight to 10 minutes” (following number rule: spell out 1–9, use numerals for 10+)\n✅ “24 to 36-month average”\n✅ “22 to 36-hour process”",
+      "id": "3e4e22f9-d19d-4322-aab2-15178b8398b0",
+      "l": "TIME"
     }
   ],
   "mantis": [
