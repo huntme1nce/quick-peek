@@ -181,6 +181,13 @@
       "i": "**Title Capitalization: When formal titles spoken in audio, maintain proper capitalization**\n- \"Our Chief Executive Officer will provide an update\"\n- \"The Chief Financial Officer reported strong results\"\n**Research Sources for Verification:**\n- LinkedIn (best for current titles)\n- Company leadership pages\n- Recent press releases\n- SEC filings (for public companies)",
       "id": "145a8829-6e41-4cab-877d-90f23e21c65a",
       "l": "Executive Names & Titles"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "**Location Acronyms (without periods):**\n- US, UK, DC, LA, NY\n**Regions:**\n- Follow the below standardizations:\nNorth America\nLatin America\nWestern Europe\nEastern Europe\nEurope, Middle East, Africa\nCentral Europe, Middle East, Africa\nAsia Pacific (all below)\nJapan\nAsia-ex\nSouth-East Asia\nAustralia/NZ",
+      "id": "7bf721b4-48fb-40b3-9c69-027c81a2d0e2",
+      "l": "Geographic and Industry References"
     }
   ],
   "mantis": [
