@@ -470,6 +470,13 @@
       "i": "**Style Guide Override Rule:**\n- If the Style Guide specifies a format, use it exactly as written\n- This overrides official company styling and all other considerations\n**Company’s Official Website “About” Page:**\n- Please check the official website’s About Us, About the Company, or About section.\n**Follow Speaker Usage (when not in Style Guide):**\n- If speaker says \"JPMorgan\" → use \"JPMorgan\"\n- If speaker says \"JPMorgan Chase\" → use \"JPMorgan Chase\"\n- If speaker says \"JPMorgan Chase & Co.\" → use \"JPMorgan Chase & Co.\"\n**Acronyms vs. Full Names:**\n- If speaker uses acronym (e.g., \"IBM\"), use the acronym\n- If speaker uses full name (e.g., \"International Business Machines\"), use the full name",
       "id": "1bc13905-46fe-421f-bb26-14751b1bd15a",
       "l": "Company Name Formatting Rules"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "Decision Tree for Multiple Formats:\nStyle Guide Specification:\nIf specified in Style Guide, use that format exactly\nThis overrides all other formatting considerations\nPlease check the official website’s About Us, About the Company, or About section.\nIf there are multiple formats in the About Us page of the official website, please follow the following hierarchy:\nAll Caps vs. Title Case:\nChoose ALL CAPS (makes proper nouns more distinguishable)\nExample: \"COMPANY\" over \"Company\"\nAll Caps vs. Stylized Branding:\nChoose stylized version (reflects official branding)\nExample: \n\"ComPany\" over \"COMPANY\" if that's official styling\n“Com-Pany” over “COMPANY” if that's official styling\n“Compãny” over “COMPANY” if that's official styling",
+      "id": "daf61142-53f2-4128-ab7d-42c5a1eb555b",
+      "l": "CAPITALIZATION PRIORITY RULES"
     }
   ]
 }
