@@ -160,6 +160,13 @@
       "i": "**General Rule:** Use abbreviated forms with numerical values for consistency. Do not put a space between the numerical value and the unit of measurement. If no numerical value is present, retain the full term as spoken. If there is no explicit numeric reference in the audio, retain the text in words, i.e. “a couple hundred pounds”.\n**Distance/Length Units:**\n✅ 50mi, 15ft, 100km (with numbers)\n✅ \"measured in miles\" (without numbers - spell out)\n**Weight/Mass Units:**\n✅ 250lbs, 75kg\n✅ tons (always write out, do not use symbol)\n✅ metric tons (always write out)\n**Volume Units:**\n✅ 100gal, 50L, 1,000bbl, 500cu ft\n✅ MMbpd (million barrels per day - standard oil industry unit)\n**Area Units:**\n✅ 100,000sq ft, 50sq mi\n✅ acres, hectares (always spell out)\n**Temperature Units:**\n✅ degrees Fahrenheit, degrees Celsius (no symbols: ❌°F, ❌°C)",
       "id": "ee244326-0cc0-46bb-a244-cb912926a136",
       "l": "Units of Measurement Detailed Rules"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "- Retain natural form - \"a billion-dollar company\" (not \"$1-billion company\")\n- Contextual usage - Maintain speaker's intended meaning\n- **Phone/Call Instructions:** Since these are not financial figures, retain the operator's phrasing from the raw transcript as closely as possible. Avoid modifying the wording or formatting.\n*****Examples:*****\n✅ \"press star\" \"press pound\"\n✅ \"press one one\" (not \"press 11\"); \n✅ Spoken as digits in instructions → transcribe in words: “dial nine one one” (not “dial 911”) but if used as a proper noun (the system or the event) → write as 911.\n✅ \"To ask a question, press star one\"\n✅ \"Please press one one to repeat the instructions\"",
+      "id": "4907f3d9-2963-4012-ae40-70a52aad6488",
+      "l": "Financial Figures as Modifiers or Idioms"
     }
   ],
   "mantis": [
