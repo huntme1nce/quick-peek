@@ -505,6 +505,13 @@
       "i": "**Standard Industry Terms**\n⚠️ Style Guide format overrides all other formatting\n- Big 4 - Four major global accounting firms (Deloitte, PwC, EY, KPMG)\n- Big 6 - Canada's six largest banks\n- FAANG - Leading U.S. tech companies (Facebook, Apple, Amazon, Netflix, Google)\n- MAMAA - Updated tech grouping (Meta, Apple, Microsoft, Amazon, - Alphabet)\n- Fortune 500 - Annual list of top 500 U.S. companies by revenue\n- S&P 500 - Index of 500 major U.S. companies\n- Dow Jones/DJIA - U.S. stock market index tracking 30 major companies\n- G7, G20 - Groups of world's largest economies\n- BRICS - Brazil, Russia, India, China, South Africa",
       "id": "2daeb732-e470-48e0-b718-398bd17b2b31",
       "l": "INDUSTRY GROUPS & SECTORS"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "Drug Name Capitalization Rules\n⚠️ Style Guide specifications override all other rules\n**Generic Drug Names (Industry Terms):**\nAlways lowercase: acetaminophen, atorvastatin, metformin, ibuprofen\n**Branded Drug Names (Proper Nouns):**\nFollow official styling: Tylenol, Lipitor, Advil, HUMIRA\n**If there are multiple official stylings:**\nIf the choice is between DRUG (all caps) and Drug (title case): ➤ Use DRUG (all caps) for clearer recognition as a proper noun\nIf the choice is between DRUG, Drug, and stylized forms like Dr-Ug, DrUg, DRug, etc.: ➤ Use the stylized official version",
+      "id": "2b176d65-8697-4648-ab6f-b4fdc1127ad3",
+      "l": "HEALTHCARE & PHARMACEUTICAL TERMINOLOGY"
     }
   ]
 }
