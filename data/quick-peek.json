@@ -265,6 +265,13 @@
       "i": "Before Finalizing, Verify:\n**Speaker Tags:**\n☐ Proper format without colons\n ☐ Consistent labeling throughout\n ☐ Accurate names and titles per audio\n ☐ Format: FirstName LastName [Position] (Company)\n**Financial Figures:**\n☐ Currency symbols placed correctly\n ☐ Percentages use % symbol\n ☐ Ranges formatted properly (use “to”)\n ☐ Basis points vs percentage points used correctly\n ☐ Years in full (2024, not '24)\n ☐ Numbers 1-9 spelled out, 10+ as numerals\n**Company Names/Industry Terms:**\n☐ Follow Style Guide specifications exactly\n ☐ Correct spelling verified\n ☐ Include diacritics where applicable\n ☐ Exclude trademark symbols unless spoken\n**Language & Structure:**\n☐ Questions end with (?), statements with (.)\n ☐ Distracting fillers removed (\"um,\" \"uh\")\n ☐ Starter conjunctions removed from sentence beginnings\n ☐ Run-on sentences fixed\n ☐ Oxford comma applied consistently\n ☐ Maximum 6 lines per paragraph\n**Overall Quality:**\n☐ Professional readability maintained\n ☐ Authentic tone preserved\n ☐ Transcript-critical accuracy verified\n ☐ Consistent formatting throughout",
       "id": "26caf9b5-c3a6-4c3f-a8cd-e76ebd7ecc9b",
       "l": "QUALITY CONTROL CHECKLIST"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "**Quick Reference Guide for Editors**\nThis section provides standardized abbreviations commonly encountered in transcripts. Use these exact formats when editing.\n**Data Storage Units**\n- KB = kilobyte\n- MB = megabyte\n- GB = gigabyte\n- TB = terabyte\n- PB = petabyte\n**Data Transfer Speed Units**\n- Kb = kilobit\n- Mb = megabit\n- Gb = gigabit\n- Mbps = megabits per second\n- Gbps = gigabits per second\n**Processing and Performance**\n- CPU = central processing unit\n- GPU = graphics processing unit\n- RAM = random access memory\n- GHz = gigahertz\n- MHz = megahertz\n- API = application programming interface\n**Power and Energy**\n- W = watt\n- kW = kilowatt\n- MW = megawatt\n- kWh = kilowatt-hour\n- MWh = megawatt-hour\nRemember: Context + technical knowledge helps identify and correct audio mishearing of technical terms.",
+      "id": "5986c38e-f798-45f9-9e8d-2a25dc5d70a0",
+      "l": "TECHNICAL ABBREVIATIONS"
     }
   ],
   "mantis": [
