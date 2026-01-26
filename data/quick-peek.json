@@ -5,7 +5,7 @@
       "f": false,
       "i": "**Standard Format: Default to “DD Month YYYY” for all dates**\nEx.:\n-**\"January fifteenth\" → 15 January 2025**\n-**\"March three\" → 3 March 2025**\n-**\"January fifteenth twenty twenty-four\" → 15 January 2024**\n**Year Expansion: Always expand to four digits**\n-**\"twenty-five\" (referring to year) → 2025**\n-**\"twenty-four\" (referring to year) → 2024**\n**Date with Ordinal vs. Cardinal: Default to cardinal**\n-**\"twenty-first\" → 21**\n**Month Names: Spell out in full**\n-**Jan → January**\n**Numerical-only dates:**\n-**\"twelve ten twenty five\" → 10 December 2025**\n-**\"three fifteen twenty four\" → 15 March 2024**\n\n**Well-known Date Exceptions:**\n-**\"nine eleven\" → 9/11 (referring to September 11, 2001)**",
       "id": "b07404e3-68a8-4481-a7f8-cc490e9a69da",
-      "l": "Date"
+      "l": "Date and Time Formatting"
     },
     {
       "c": "Time",
