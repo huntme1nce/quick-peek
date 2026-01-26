@@ -519,6 +519,27 @@
       "i": "**Trial Phases:**\n- Style Guide format takes precedence\n- phase I, phase II, phase III, phase III-A, phase III-B, phase IV (lowercase \"phase\")\n**Treatment Classifications:**\n- first-line treatment, refractory, metastatic\n**Clinical Endpoints:**\n- overall survival (OS)\n- progression-free survival (PFS)\n**Regulatory Terms**\n- FDA processes: BLA, NDA, PDUFA date, Priority Review\n- Commercial terms: patent cliff, generic competition, biosimilar\n- Market access: formulary coverage, launch preparations",
       "id": "07cc675c-026f-47b6-a96c-a3b39167a499",
       "l": "Clinical Development Terms"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "**Generational References**\n⚠️ Style Guide format overrides company branding and standard rules\n- Use official company language first. If investor materials or official branding use “5th Gen,” follow that exact style.\n- If no official reference exists, default to numeric + hyphen (e.g., 5th-gen processors, 3rd-gen platforms).\n- Use spelled-out forms only if official branding dictates it (e.g., Fifth Generation iPad).\n- As a noun, use “5th generation” (e.g., We are transitioning to the 5th generation of AI processors.).\n- Do not use casual variants like 5th gen (no hyphen).\n- Apply the same logic across sectors (e.g., 3rd-gen vaccines, 2nd-gen EVs).",
+      "id": "084b47e9-c944-4c62-abeb-21c4159b3c35",
+      "l": "TECHNOLOGY TERMINOLOGY"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "- Software: Salesforce CRM, Microsoft Office 365, Adobe Creative Cloud\n- Platforms: Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform\n- Services: McKinsey & Company consulting, Deloitte audit services",
+      "id": "9ce65e76-23ca-404d-a1b7-babdde081883",
+      "l": "Product and Service Names"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "Use what was spoken in the audio — if the acronym was dictated, retain the acronym (e.g., \"EPS\"); if the full term was spoken, use the full term (e.g., \"earnings per share\").\nEssential Acronyms:\nEPS: earnings per share\nEBITDA: earnings before interest, taxes, depreciation, and amortization\nP/E: price-to-earnings ratio\nROI: return on investment\nM&A: mergers and acquisitions\nIPO: initial public offering\nSaaS: software as a service\nCRM: customer relationship management\nERP: enterprise resource planning\nCapEx: capital expenditures\nOpEx: operating expense\nFinancial Metrics:\nbasis points and percentage points\nAudio: 100 basis points ✅100 basis points ❌100 bps\nAudio: one percentage point ✅ 1 percentage point ❌1% or 1 pp\nYoY: year-over-year\nQoQ: quarter-over-quarter\nCAGR: compound annual growth rate\nARR: annual recurring revenue\nMRR: monthly recurring revenue",
+      "id": "4c2d83bf-3e9b-4ddc-bef3-2d32a1e087f0",
+      "l": "Financial Acronyms & Terms"
     }
   ]
 }
