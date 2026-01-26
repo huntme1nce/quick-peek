@@ -13,6 +13,13 @@
       "i": "**Standard Format**\n***Transcribe time as h:mmAM/PM; no periods and no space***\n✅ “9 in the evening” → 9:00PM**\n**Time in a Series**\n**Repeat the unit with each number.**\n✅ “People have about a 20-minute, 25-minute, maybe a 30-minute drive”**\n**Time Ranges**\n**Use hyphen with no spaces.**\n✅ “They went to work from 9:00AM-5:00PM”\n**Follow standard time format when converting:**\n✅ “7:00AM to midnight” → 7:00AM–12:00AM\n✅ “7:00AM to 12 noon” → 7:00AM–12:00PM\n**Non-Clock Durations**\n**For minutes, hours, or months not tied to a clock:**\n✅ “eight to 10 minutes” (following number rule: spell out 1–9, use numerals for 10+)\n✅ “24 to 36-month average”\n✅ “22 to 36-hour process”",
       "id": "3e4e22f9-d19d-4322-aab2-15178b8398b0",
       "l": "TIME"
+    },
+    {
+      "c": "Formats",
+      "f": false,
+      "i": "Numerical Ranges with Same Units\nUse \"to\" when the speaker dictates a range between two numbers for readability\nApply the appropriate symbol ($ and ISO codes) to only the first number in the range.\nApply the trillion/billion/million to only the 2nd number in the range.\nExamples:\n✅ Revenue guidance of $2.4 to 2.5 billion\nDictated as: \"two point four to two point five billion dollars\"\n✅ EPS guidance of $3.50 to 3.75\nDictated as: \"three fifty to three seventy-five\" (implied currency)\nSpecial Range Rules\nWhen writing percentages ranges, apply the % symbol for both numbers in the range, even if the speaker only says it once\n✅ EBITDA margin of 22% to 25%\nDictated as: \"twenty-two to twenty-five percent\"\nWhen \"between...and\" is dictated: Retain \"and\"\n✅ Expected growth between 15% and 20% (dictated \"and\", retain \"and\")\nValue changes over time: Retain \"to\"\n✅ grew from $100 to 150 million (change in value over time, indicating a $50 million increase)\nDifferent units: Use \"to\" not hyphen\n✅ 17% to $1.1 billion (not \"17%-$1.1 billion\")\n✅ improved from 13% to $1.3 billion (different units)\nException for Positive/Negative Ranges: When a range contains both positive/plus (+) and negative/minus (-) numbers, retain \"to\" for readability to avoid double symbols\n✅ +2% to -3% (clear and readable)\n❌ +2%--3% (confusing double hyphen)",
+      "id": "a0c88b87-7d37-4ab5-96ed-8588ab4fe019",
+      "l": "RANGE"
     }
   ],
   "mantis": [
