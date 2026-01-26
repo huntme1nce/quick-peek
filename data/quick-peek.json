@@ -8,7 +8,7 @@
       "l": "Date"
     },
     {
-      "c": "",
+      "c": "Time",
       "f": false,
       "i": "**Standard Format**\n***Transcribe time as h:mmAM/PM; no periods and no space***\n✅ “9 in the evening” → 9:00PM**\n**Time in a Series**\n**Repeat the unit with each number.**\n✅ “People have about a 20-minute, 25-minute, maybe a 30-minute drive”**\n**Time Ranges**\n**Use hyphen with no spaces.**\n✅ “They went to work from 9:00AM-5:00PM”\n**Follow standard time format when converting:**\n✅ “7:00AM to midnight” → 7:00AM–12:00AM\n✅ “7:00AM to 12 noon” → 7:00AM–12:00PM\n**Non-Clock Durations**\n**For minutes, hours, or months not tied to a clock:**\n✅ “eight to 10 minutes” (following number rule: spell out 1–9, use numerals for 10+)\n✅ “24 to 36-month average”\n✅ “22 to 36-hour process”",
       "id": "3e4e22f9-d19d-4322-aab2-15178b8398b0",
