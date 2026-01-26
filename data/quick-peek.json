@@ -122,7 +122,7 @@
     {
       "c": "Formats",
       "f": false,
-      "i": "Numbers and Numerical Figures\n1-9: Spell out (one, five, eight)\n10+: Use numerals (10, 25, 103)\nOrdinal Numbers: first-ninth (spelled out); 10th+ numerals\nCommas: Use in numbers 1,000+ (1,200; 15,000; 100,000)\nSpoken abbreviations: Convert to full numeric\n60K → 60,000\n2 mil → 2 million\n3.2B → 3.2 billion\nPercentages\nFormat: 15.5% (not fifteen point five percent)\nInclude leading zero for values less than one: 0.25%\nWhole numbers: 100% (not one hundred percent)",
+      "i": "**Numbers and Numerical Figures**\n- 1-9: Spell out (one, five, eight)\n- 10+: Use numerals (10, 25, 103)\n- Ordinal Numbers: first-ninth (spelled out); 10th+ numerals\n- Commas: Use in numbers 1,000+ (1,200; 15,000; 100,000)\n- Spoken abbreviations: Convert to full numeric\n- 60K → 60,000\n- 2 mil → 2 million\n- 3.2B → 3.2 billion\n**Percentages**\n- **Format:** 15.5% (not fifteen point five percent)\n- **Include leading zero for values less than one:** 0.25%\n- **Whole numbers:** 100% (not one hundred percent)",
       "id": "971b88b3-8c94-45fa-9235-a53eba670d82",
       "l": "Numbers and Percentages"
     }
