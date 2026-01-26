@@ -104,6 +104,13 @@
       "i": "Use exactly as introduced by speaker\nRetain abbreviations if spoken (Audio: J&J, use J&J not Johnson & Johnson)\nInclude official styling when verified",
       "id": "dadd36f1-e3dc-47d1-b552-2529ebaf4dbc",
       "l": "Substitute Speakers"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "- All speakers have complete tags with name, position, and company (where known)\n- No spaces inside brackets or parentheses\n- Single spaces between all words\n- \"and\" used instead of \"&\" for positions\n- Oxford comma used for 3+ positions\n- Proper capitalization for all positions\n- No duplicate tags for same speaker\n- No \"null\", \"Unidentified\", or \"Speaker #\" in tags\n- Unknown speakers follow priority order\n- Numbers added only when necessary for identical tags",
+      "id": "386e0c0c-f81a-42c1-9a34-b70bb0ca9561",
+      "l": "QUALITY CHECKLIST"
     }
   ],
   "mantis": [
