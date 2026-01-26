@@ -155,6 +155,13 @@
       "i": "✅ CORRECT:\n[Mining Research Analyst] - All major words capitalized\n[Senior Analyst] - Proper capitalization\n[Equity Research Senior Associate] - Proper capitalization\n❌ INCORRECT:\n[Senior analyst] - Lowercase \"analyst\"\n[mining research analyst] - Improper capitalization\n\nINVESTOR RELATIONS TITLES\nIR/Investor Relations Alone\n“IR” or “Investor Relations” is a department, not a position.\nIf only “IR” or “Investor Relations” is dictated, do not tag it as the position. Instead, determine the specific role from context or company materials.\n\tExamples of correct roles:\n[Head of Investor Relations]\n[VP of Investor Relations]\n[Director of Investor Relations]\n[Senior Manager of Investor Relations]\n[IR Manager]\n[IR Associate]\n[IR Coordinator]\n\n[Position + Department]\nIf the speaker is introduced as Position, Investor Relations (e.g., “Head, Investor Relations” or “Executive Director, Investor Relations”), format it with “of” instead of a comma.\n\n\n✅ CORRECT: [Head of Investor Relations] (AT&T)\n✅ CORRECT: [Executive Director of Investor Relations] (Accenture)\n\n\n❌ INCORRECT: [Head, Investor Relations] (AT&T)\n\t❌ INCORRECT: [Executive Director, Investor Relations] (Accenture)",
       "id": "7d5fdd95-8276-4909-9a3f-de23ddf4098d",
       "l": "Title Capitalization"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "**Finding Complete Names**\n- **First/Last name only in audio:** Use Google and context clues to find first/last name\n- **Verification sources:**\n--LinkedIn profiles\n--Company websites (About Us, Leadership pages)\n--Recent press releases\n--SEC filings for public companies\n*****Examples*****\n- Audio says \"Bob\" → Research finds → Bob Leasure [CEO and President] (Inotiv)\n- Audio says \"Fred\" → Research finds Frederick Bell → Fred Bell [President and COO] (EMX Royalty)\n**Name Consistency**\n-  Use one consistent tag per speaker throughout transcript\n-  Follow the name as spoken: If a speaker uses a nickname instead of their full name, transcribe the nickname as is (e.g., Rob instead of Robert)\"",
+      "id": "7729894a-823a-4041-8849-893fbea67bf3",
+      "l": "NAME RESEARCH & VERIFICATION"
     }
   ]
 }
