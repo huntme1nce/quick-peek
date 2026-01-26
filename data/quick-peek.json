@@ -167,6 +167,13 @@
       "i": "- Retain natural form - \"a billion-dollar company\" (not \"$1-billion company\")\n- Contextual usage - Maintain speaker's intended meaning\n- **Phone/Call Instructions:** Since these are not financial figures, retain the operator's phrasing from the raw transcript as closely as possible. Avoid modifying the wording or formatting.\n*****Examples:*****\n✅ \"press star\" \"press pound\"\n✅ \"press one one\" (not \"press 11\"); \n✅ Spoken as digits in instructions → transcribe in words: “dial nine one one” (not “dial 911”) but if used as a proper noun (the system or the event) → write as 911.\n✅ \"To ask a question, press star one\"\n✅ \"Please press one one to repeat the instructions\"",
       "id": "4907f3d9-2963-4012-ae40-70a52aad6488",
       "l": "Financial Figures as Modifiers or Idioms"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "Priority Order for Verification\nClient Company Master Mapping table (absolute precedence)\nStyle Guide specification\nOfficial company \"About Us\" page\nMultiple formats on website hierarchy:\nAll caps vs title case → Choose All caps\nCOMPANY vs Company → Choose COMPANY\nALL CAPS vs stylized → Choose stylized version\nCOMPANY vs ComPany → Choose ComPany\nCOMPANY vs Cõmpany → Choose Cõmpany\nCOMPANY vs Com-Pany → Choose Com-Pany\n5.2 Major Company Names (Company Master Mapping Table)\nImportant: In the transcript, transcribe verbatim. In titles, speaker roles, etc., use the colloquial equivalents, i.e. Microsoft, Apple, Meta, NVIDIA [without inc/corp/ltd/etc.] Always refer to the Company Master Mapping Table.\nTechnology:\nMicrosoft Corporation (or Microsoft)\nApple Inc. (not Apple Corp.)\nNVIDIA Corporation (note all-caps styling)\nMeta Platforms, Inc. (formerly Facebook)\nSalesforce, Inc.\nAmazon Web Services (AWS)\nGoogle Cloud Platform (GCP)\nFinancial Services:\nJPMorgan Chase & Co. \nGoldman Sachs Group, Inc.\nBank of America Corporation\nBlackRock, Inc.\n\nHealthcare/Pharma:\nJohnson & Johnson (note ampersand)\nPfizer Inc.\nMerck & Co., Inc. (note comma after \"Co.\")\n5.3 Company Departments & Divisions\nDefault: Use lowercase (investor relations, procurement team, risk management)\nCapitalize only: When confirmed as official business unit or trademarked entity\nImportant: always refer to the Company Master Mapping table for any site locations mentioned.\nExamples:\nLowercase (Default):\n✅ investor relations\n✅ procurement team\n✅ risk management\n✅ strategy department\n✅ finance team\nCapitalize (Verified Proper Nouns Only):\n✅ Pharma Solutions\n✅ Morgan Health\n✅ Global Shares\n✅ Amazon Web Services",
+      "id": "5da34dce-dc17-41c4-bfa7-4c470e76d448",
+      "l": "COMPANY NAMES & PROPER NOUNS"
     }
   ],
   "mantis": [
