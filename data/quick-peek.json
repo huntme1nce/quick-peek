@@ -20,6 +20,13 @@
       "i": "**Numerical Ranges with Same Units**\nUse **\"to\"** when the speaker dictates a range between two numbers for readability\nApply the appropriate symbol ($ and ISO codes) to only the first number in the range.\n**Apply the trillion/billion/million to only the 2nd number in the range.**\n**Examples:**\n✅ Revenue guidance of $2.4 to 2.5 billion\n**Dictated as: \"two point four to two point five billion dollars\"**\n✅ EPS guidance of $3.50 to 3.75\nDictated as: \"three fifty to three seventy-five\" (implied currency)\n**Special Range Rules**\n**When writing percentages ranges, apply the % symbol for both numbers in the range, even if the speaker only says it once**\n✅ EBITDA margin of 22% to 25%\nDictated as: \"twenty-two to twenty-five percent\"\n**When \"between...and\" is dictated: Retain \"and\"**\n✅ Expected growth between 15% and 20% (dictated \"and\", retain \"and\")\n**Value changes over time:** Retain \"to\"\n✅ grew from $100 to 150 million (change in value over time, indicating a $50 million increase)\n**Different units: Use \"to\" not hyphen**\n✅ 17% to $1.1 billion (not \"17%-$1.1 billion\")\n✅ improved from 13% to $1.3 billion (different units)\n**Exception for Positive/Negative Ranges:** When a range contains both positive/plus (+) and negative/minus (-) numbers, retain \"to\" for readability to avoid double symbols\n✅ +2% to -3% (clear and readable)\n❌ +2%--3% (confusing double hyphen)",
       "id": "a0c88b87-7d37-4ab5-96ed-8588ab4fe019",
       "l": "RANGE"
+    },
+    {
+      "c": "Formats",
+      "f": false,
+      "i": "Financial Amounts: **Do Not convert to Actual Dollar Values; only convert to Actual Dollar Values if there is an explicit numeric reference in audio,** i.e. “two hundred million dollars” → $200 million\nquarter of a million dollars → quarter of a million dollars\nhalf a million seats → half a million seats\nhalf a billion dollars → half a billion dollars\n**Market Share/Revenue Fractions:** Use Numerical Format\na third of the market share → 1/3 of the market share\na quarter of the revenue → 1/4 of the revenue\n**Ratio-Style Fractions:** Use XX/XX Format\nFifty-fifty → 50/50\nContext example: \"It used to be 60/40. Now, it's half and half\" → \"It used to be 60/40. Now, it's 50/50\"\n**Beginning of Sentence Exception**\nException: At the beginning of a sentence → A third of the market share...\nStandard: Mid-sentence → This is 1/3 of the market share\n**Non-numerical Fractions**: Keep as is\nhalf the time (retain as is)\nHalf-mile, half-dozen (retain as is)\n\"half of the population\", \"half of the employees\" (retain as is)",
+      "id": "9fa18563-2885-4dea-8f0d-32072e533742",
+      "l": "Fraction Rules for Financial Figures"
     }
   ],
   "mantis": [
