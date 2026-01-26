@@ -230,6 +230,13 @@
       "i": "**Terminal Punctuation**\n- Questions end with (?)\n- Statements end with (.)\n- Ensure all sentences have proper ending punctuation\n**Comma Usage**\n- Compound sentences: Use commas before coordinating conjunctions (and, but, or, so)\n\"Revenue increased significantly, and margins improved as well\"\n- Natural pauses: Add commas for clarity in compound sentences\n- Introductory elements: Use comma after introductory phrases\n\"In the fourth quarter, we saw strong performance\"\n**Oxford Comma**\n- Always use consistently throughout the transcript\n- Example: \"We serve healthcare, technology, and financial services clients\"\n**Capitalization**\n**Proper nouns:** Capitalize company names, people, places per Style Guide\n- Titles: Capitalize formal titles when used with names or in formal context\n- Beginning of sentences: Always capitalize first word",
       "id": "8cb6cbfa-fa3f-4d67-a7fa-9794d041313b",
       "l": "LANGUAGE & STRUCTURE"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "**Fix These Issues:**\n- Run-on sentences: Break at natural conjunction points\n- Missing punctuation: Add periods, question marks\n- Comma usage: Add for compound sentences and clarity\n**Starter Conjunctions:**\nDerive discretion for removal from sentence beginnings based on whether it will alter the sentence’s meaning.\n- \"And we're seeing strong growth\" → \"We're seeing strong growth\"\nCan imply an emphasis or may need to be cut in case of a run-on sentence.\n- \"But, I think the market will recover\"\nImplies previous statement’s sentiment or essence should remain in mind.\n**Verbal Crutches/Filler Management**\n**Remove These:**\n- \"um\" (most instances)\n- \"uh\" (most instances)\n**Preserve These:**\n- \"you know\" (emphasis)\n- \"I mean\" (clarification)\n- \"like\" (conversational connector)\n- \"actually\" (emphasis/correction)\n- \"well\" (thoughtful transition)",
+      "id": "cded2c94-ac5c-45d7-8cbf-6b8bc4f8c7e5",
+      "l": "Sentence Construction"
     }
   ],
   "mantis": [
