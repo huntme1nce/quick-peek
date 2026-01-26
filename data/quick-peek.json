@@ -456,6 +456,20 @@
       "i": "- Johnson & Johnson (note the ampersand)\n- Pfizer Inc.\n- Merck & Co., Inc. (note comma after \"Co.\")\n- Roche Holding AG (Swiss company)\n- Novartis AG\n- Amgen Inc.\n- Gilead Sciences, Inc.\n- Moderna, Inc.",
       "id": "68423007-07a8-4d41-9724-30df258bba00",
       "l": "Healthcare & Pharmaceutical"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "- McKinsey & Company\n- Boston Consulting Group\n- Bain & Company\n- Deloitte\n- PwC (PricewaterhouseCoopers)\n- EY (Ernst & Young)\n- KPMG",
+      "id": "8a8db207-7da1-4f91-a3d0-632ffaaa8bcc",
+      "l": "Consulting & Professional Services"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "**Style Guide Override Rule:**\n- If the Style Guide specifies a format, use it exactly as written\n- This overrides official company styling and all other considerations\n**Company’s Official Website “About” Page:**\n- Please check the official website’s About Us, About the Company, or About section.\n**Follow Speaker Usage (when not in Style Guide):**\n- If speaker says \"JPMorgan\" → use \"JPMorgan\"\n- If speaker says \"JPMorgan Chase\" → use \"JPMorgan Chase\"\n- If speaker says \"JPMorgan Chase & Co.\" → use \"JPMorgan Chase & Co.\"\n**Acronyms vs. Full Names:**\n- If speaker uses acronym (e.g., \"IBM\"), use the acronym\n- If speaker uses full name (e.g., \"International Business Machines\"), use the full name",
+      "id": "1bc13905-46fe-421f-bb26-14751b1bd15a",
+      "l": "Company Name Formatting Rules"
     }
   ]
 }
