@@ -169,6 +169,13 @@
       "i": "Identify dominant speaker\nUse **[crosstalk]** for unintelligible overlapping speech\nMark unclear sections appropriately",
       "id": "07866f51-2f0f-492c-8e1d-46af8de934e6",
       "l": "Overlapping Speakers"
+    },
+    {
+      "c": "Custom",
+      "f": false,
+      "i": "When the audio is AI-generated with a single voice representing all speakers:\n- Identify speakers using contextual clues from the conversation content\nListen for:\n-- Self-introductions (\"This is John from Microsoft...\")\n-- References to speakers by name (\"Thank you, Sarah, for that question...\")\n-- Role-specific statements (operator instructions, analyst questions, executive responses)\n-- Transition phrases indicating speaker changes\n- Do not assume speaker continuity based on voice similarity alone\n- Verify speaker attribution through:\n--Content consistency with speaker's role\n--Q&A flow patterns (question from analyst → answer from executive)\n--Operator cues about who's speaking next\n- When uncertain, use contextual markers:\n--Company representatives discuss internal metrics\n--Analysts ask questions about guidance\n--Operators manage call flow",
+      "id": "d8358a42-8856-4326-8394-ca9863c0babf",
+      "l": "AI-Generated Audio"
     }
   ]
 }
