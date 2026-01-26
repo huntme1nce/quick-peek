@@ -248,7 +248,7 @@
     {
       "c": "Formats",
       "f": false,
-      "i": "***Decision Framework**\nCritical transcript content unclear\n- For Speaker names, financials, company names\n-Use guess brackets \n- **[guessed word]**\nMultiple speakers unintelligible section\n- Use crosstalk notation\n- Overlapping dialogue, cannot identify dominant speaker\n- **[crosstalk]**\nNon-English content\n- Use foreign language notation\n- Use capital F for Foreign and lowercase l for language.\n- Any non-English sections\n- **[Foreign language]**",
+      "i": "***Decision Framework**\nCritical transcript content unclear\n- For Speaker names, financials, company names\n-Use guess brackets \n- **[guessed word]**\nMultiple speakers unintelligible section\n- Use crosstalk notation\n- Overlapping dialogue, cannot identify dominant speaker\n- **[crosstalk]**\nNon-English content\n- Use foreign language notation\n- Use capital F for Foreign and lowercase l for language.\n- Any non-English sections\n- **[Foreign language]**\nExtremely distorted audio/clearly inaccurate transcript\n- Use inaudible notation\n- Use lowercase a for audio and lowercase d for distortion\n- Use [inaudible] for English audio that is too unclear or garbled to transcribe accurately. Remove the inaccurate transcript, replace with the notation.\n- **[inaudible]**\nGeneral unclear content\n- Retain raw transcript\n- Non-critical conversational content (not speaker tags, proper nouns/industry terms, and financial figures)x\n- **keep as heard**",
       "id": "f7a0ef25-2cbc-441c-8302-5ae4482861cb",
       "l": "AUDIO QUALITY ISSUES & NOTATION"
     }
