@@ -285,7 +285,7 @@
       "f": false,
       "i": "NUMERICAL FIGURES\n**Spell out numbers 1-9**\n- Use words for small numbers\n- one, five, eight\n**Use numerals for 10+**\n- Use digits for larger numbers\n- 10, 25, 103\n**Ordinal numbers**\n- Same rule applies\n- first, second, 10th, 11th\n**Add commas**\n- For numbers 1,000 and up\n- 1,200; 15,000; 100,000\n**Spoken abbreviations**\n- Convert K, M, B to full numeric\n- 60K → 60,000\n- 2 mil → 2 million\n- 3.2B → 3.2 billion\n**Clean decimals stated (Speaker uses decimal point in speech)**\n- billion/million format\n- \"Two point five billion→ 2.5 billion\n- \"One point two five million\" → 1.25 million\n**Fraction stated (Speaker uses whole + fraction in speech)**\n- billion/million format\n- “Two and a quarter billion” → 2.25 billion\n**Round millions/billions (Speaker uses simple, round numbers)**\n- billion/million format\n- \"Fifty million\" → 50 million\n- \"Two billion → 2 billion\n**Complex spoken breakdown (Speaker states the full, detailed breakdown)**\n- Comma format\n- \"One million two hundred fifty thousand\" → 1,250,000\n- “Two million three hundred thousand\" → 2,300,000\n\n**Application in Ranges**\n\n✅USD range: $2.4 billion-$2.5 billion\n✅Other currencies: EUR 1.0 billion-EUR 1.5 billion",
       "id": "bd79e8cd-4dd4-4412-a6c8-3494b8d5994f",
-      "l": "FINANCIAL FIGURES"
+      "l": "NUMERICAL FIGURES"
     }
   ],
   "mantis": [
