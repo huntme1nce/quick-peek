@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Quick Peek — Admin</title>
+<style>
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#0f1223;color:#e6eef9;margin:0;padding:20px}
+  h1{font-size:18px;margin:0 0 10px}
+  .panel{background:linear-gradient(180deg,#101226,#0b0d16);border-radius:10px;padding:14px;margin-bottom:14px;border:1px solid rgba(255,255,255,0.06)}
+  label{display:block;margin:8px 0 4px;font-size:13px;opacity:.9}
+  input[type="text"],input[type="password"],select,textarea{width:100%;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:inherit}
+  .row{display:flex;gap:10px}
+  .row > *{flex:1}
+  button{padding:8px 12px;border-radius:8px;border:none;background:linear-gradient(90deg,#70e3ff,#966eff);color:#061018;font-weight:700;cursor:pointer}
+  button.warn{background:linear-gradient(90deg,#ff6f90,#ff8b5b);color:#1a0610}
+  table{width:100%;border-collapse:collapse;margin-top:8px}
+  th,td{padding:8px;border-bottom:1px solid rgba(255,255,255,0.03);text-align:left}
+  .small{font-size:12px;opacity:.8}
+  .muted{opacity:.75;font-size:12px}
+  .flex{display:flex;gap:8px}
+  .chip{padding:4px 8px;border-radius:999px;border:1px solid rgba(255,255,255,0.06);font-size:12px}
+  textarea.full{height:130px;white-space:pre-wrap}
+  .controls{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+  .danger{background:#45171a;color:#fff}
+  .ok{background:#0b6b59;color:#fff}
+  .note{font-size:12px;color:#cbd6e8;opacity:.85;margin-top:8px}
+</style>
+</head>
+<body>
+  <h1>Quick Peek — Admin editor</h1>
+
+  <div class="panel">
+    <div class="row">
+      <div>
+        <label>Owner / Org</label>
+        <input id="owner" type="text" value="huntme1nce" />
+      </div>
+      <div>
+        <label>Repository</label>
+        <input id="repo" type="text" value="quick-peek" />
+      </div>
+      <div>
+        <label>Branch</label>
+        <input id="branch" type="text" value="main" />
+      </div>
+    </div>
+
+    <label>Path to JSON file (in repo)</label>
+    <input id="path" type="text" value="quick-peek.json" />
+
+    <label>Personal Access Token (paste here to enable save)</label>
+    <input id="token" type="password" placeholder="Paste PAT here (not stored by page unless you check the box)" />
+    <div class="flex" style="align-items:center;margin-top:6px">
+      <label style="margin:0"><input id="remember" type="checkbox" /> Remember token in this browser (localStorage)</label>
+      <div style="margin-left:auto" class="muted small">Only paste PAT if you are the repo owner. Revoke token if exposed.</div>
+    </div>
+
+    <div class="controls">
+      <button id="btnLoad">Load JSON</button>
+      <button id="btnRefresh" class="ok">Refresh from GitHub</button>
+      <button id="btnExport">Export JSON</button>
+      <button id="btnClearToken" class="warn">Clear saved token</button>
+    </div>
+
+    <div id="status" class="note"></div>
+  </div>
+
+  <div id="editorArea" class="panel" style="display:none">
+    <div style="display:flex;align-items:center;gap:12px">
+      <div class="chip">Editing: <span id="fileLabel"></span></div>
+      <div class="muted small" id="fileSha"></div>
+      <div style="margin-left:auto" class="muted small">Make sure you commit responsibly — this edits the file in your repo.</div>
+    </div>
+
+    <div style="margin-top:12px">
+      <label>Cricket items (JSON)</label>
+      <div id="cricketContainer"></div>
+      <button id="addCricket">+ Add Cricket Item</button>
+    </div>
+
+    <div style="margin-top:12px">
+      <label>Mantis items (JSON)</label>
+      <div id="mantisContainer"></div>
+      <button id="addMantis">+ Add Mantis Item</button>
+    </div>
+
+    <div class="controls" style="margin-top:12px">
+      <button id="btnSave" class="">Save to GitHub</button>
+      <button id="btnPreview" class="ok">Preview JSON</button>
+      <button id="btnReset" class="warn">Reset local edits (reload from GitHub)</button>
+    </div>
+
+    <div id="previewArea" style="display:none;margin-top:12px">
+      <label>Preview (JSON)</label>
+      <textarea id="previewJSON" class="full"></textarea>
+    </div>
+
+  </div>
+
+<script>
+/*
+  Admin editor (client-side). Usage:
+  - Paste a PAT into the token field (only you should have this token).
+  - Click Load JSON (the page will GET the file via GitHub API and show items).
+  - Edit items, Add/Delete, then Save to GitHub (PUT to API with commit message).
+  - The token can be remembered locally only if you check the box. Recommended: DO NOT check the box.
+  - This page uses the GitHub REST API v3: https://docs.github.com/en/rest/repos/contents
+*/
+
+const $ = id => document.getElementById(id);
+const status = $('status');
+const ownerInput = $('owner');
+const repoInput = $('repo');
+const branchInput = $('branch');
+const pathInput = $('path');
+const tokenInput = $('token');
+const rememberInput = $('remember');
+
+const btnLoad = $('btnLoad');
+const btnRefresh = $('btnRefresh');
+const btnExport = $('btnExport');
+const btnClearToken = $('btnClearToken');
+
+const editorArea = $('editorArea');
+const fileLabel = $('fileLabel');
+const fileSha = $('fileSha');
+const cricketContainer = $('cricketContainer');
+const mantisContainer = $('mantisContainer');
+const addCricket = $('addCricket');
+const addMantis = $('addMantis');
+const btnSave = $('btnSave');
+const btnPreview = $('btnPreview');
+const previewArea = $('previewArea');
+const previewJSON = $('previewJSON');
+const btnReset = $('btnReset');
+
+let currentData = { cricket: [], mantis: [] };
+let currentSha = null;
+
+function setStatus(msg, ok = true) {
+  status.textContent = msg;
+  status.style.color = ok ? '#cbd6e8' : '#ffb4b4';
+}
+
+// base64 helpers for Unicode-safe encoding/decoding
+function b64EncodeUnicode(str) {
+  return btoa(unescape(encodeURIComponent(str)));
+}
+function b64DecodeUnicode(b64) {
+  return decodeURIComponent(escape(atob(b64)));
+}
+
+function apiBase() {
+  return 'https://api.github.com/repos/' + encodeURIComponent(ownerInput.value) + '/' + encodeURIComponent(repoInput.value) + '/contents/' + encodeURIComponent(pathInput.value);
+}
+
+async function loadSavedToken() {
+  try {
+    const saved = localStorage.getItem('qp_admin_token');
+    if (saved) {
+      tokenInput.value = saved;
+      rememberInput.checked = true;
+    }
+  } catch (e) {}
+}
+loadSavedToken();
+
+btnClearToken.addEventListener('click', () => {
+  localStorage.removeItem('qp_admin_token');
+  tokenInput.value = '';
+  rememberInput.checked = false;
+  setStatus('Cleared saved token (if any).');
+});
+
+btnLoad.addEventListener('click', async () => {
+  await loadFileFromGitHub();
+});
+
+btnRefresh.addEventListener('click', async () => {
+  await loadFileFromGitHub(true);
+});
+
+btnExport.addEventListener('click', () => {
+  const blob = new Blob([JSON.stringify(currentData, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a'); a.href = url; a.download = 'quick-peek.json'; a.click(); URL.revokeObjectURL(url);
+  setStatus('Exported JSON.');
+});
+
+async function loadFileFromGitHub(force=false) {
+  const url = apiBase() + '?ref=' + encodeURIComponent(branchInput.value);
+  setStatus('Fetching file from GitHub...');
+  try {
+    const res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) {
+      setStatus('Failed to fetch file: ' + res.status + ' — Check owner/repo/path/branch.', false);
+      return false;
+    }
+    const json = await res.json();
+    // json.content is base64
+    const txt = b64DecodeUnicode(json.content.replace(/\n/g,''));
+    const parsed = JSON.parse(txt);
+    currentData = parsed;
+    currentSha = json.sha;
+    fileLabel.textContent = pathInput.value + ' @ ' + branchInput.value;
+    fileSha.textContent = 'SHA: ' + currentSha;
+    renderEditor();
+    editorArea.style.display = 'block';
+    previewArea.style.display = 'none';
+    setStatus('File loaded. Edit items below and click Save to commit changes.');
+    return true;
+  } catch (e) {
+    console.error(e);
+    setStatus('Error fetching file: ' + e.message, false);
+    return false;
+  }
+}
+
+function renderEditor() {
+  function renderList(container, list, tab) {
+    container.innerHTML = '';
+    if (!Array.isArray(list)) list = [];
+    list.forEach((item, idx) => {
+      const row = document.createElement('div');
+      row.style.border = '1px solid rgba(255,255,255,0.04)';
+      row.style.borderRadius = '8px';
+      row.style.padding = '8px';
+      row.style.marginBottom = '8px';
+      row.innerHTML = `
+        <div style="display:flex;gap:8px;align-items:center">
+          <input data-idx="${idx}" data-tab="${tab}" class="lbl" placeholder="Label" value="${escapeHtmlAttr(item.l || '')}" style="flex:1" />
+          <input data-idx="${idx}" data-tab="${tab}" class="cat" placeholder="Category" value="${escapeHtmlAttr(item.c || '')}" style="width:140px" />
+          <label style="display:flex;align-items:center;gap:6px;margin-left:8px"><input type="checkbox" data-idx="${idx}" data-tab="${tab}" class="fav" ${item.f ? 'checked' : ''}/> Fav</label>
+          <button data-idx="${idx}" data-tab="${tab}" class="del" style="margin-left:6px;background:#2b1220;color:#fff;border-radius:8px;padding:6px 8px">Delete</button>
+        </div>
+        <div style="margin-top:8px"><textarea data-idx="${idx}" data-tab="${tab}" class="info" placeholder="Info (markdown supported)" style="width:100%;height:78px;border-radius:6px;padding:6px;background:transparent;border:1px solid rgba(255,255,255,0.04)">${escapeHtmlAttr(item.i || '')}</textarea></div>
+      `;
+      container.appendChild(row);
+    });
+    // attach events
+    container.querySelectorAll('.del').forEach(b => b.addEventListener('click', (e) => {
+      const idx = +e.currentTarget.getAttribute('data-idx'); const tab = e.currentTarget.getAttribute('data-tab');
+      currentData[tab].splice(idx,1); renderEditor(); setStatus('Item deleted (local change).');
+    }));
+    container.querySelectorAll('.lbl').forEach(inp => inp.addEventListener('input', (e) => {
+      const idx = +e.target.getAttribute('data-idx'); const tab = e.target.getAttribute('data-tab');
+      currentData[tab][idx].l = e.target.value;
+    }));
+    container.querySelectorAll('.cat').forEach(inp => inp.addEventListener('input', (e) => {
+      const idx = +e.target.getAttribute('data-idx'); const tab = e.target.getAttribute('data-tab');
+      currentData[tab][idx].c = e.target.value;
+    }));
+    container.querySelectorAll('.info').forEach(inp => inp.addEventListener('input', (e) => {
+      const idx = +e.target.getAttribute('data-idx'); const tab = e.target.getAttribute('data-tab');
+      currentData[tab][idx].i = e.target.value;
+    }));
+    container.querySelectorAll('.fav').forEach(cb => cb.addEventListener('change', (e) => {
+      const idx = +e.target.getAttribute('data-idx'); const tab = e.target.getAttribute('data-tab');
+      currentData[tab][idx].f = !!e.target.checked;
+    }));
+  }
+
+  // ensure arrays exist
+  currentData.cricket = currentData.cricket || [];
+  currentData.mantis = currentData.mantis || [];
+
+  renderList(cricketContainer, currentData.cricket, 'cricket');
+  renderList(mantisContainer, currentData.mantis, 'mantis');
+}
+
+addCricket.addEventListener('click', () => {
+  currentData.cricket = currentData.cricket || [];
+  currentData.cricket.unshift({ id: 'id_' + Date.now(), l: 'New item', i: '', c: '', f: false });
+  renderEditor();
+});
+
+addMantis.addEventListener('click', () => {
+  currentData.mantis = currentData.mantis || [];
+  currentData.mantis.unshift({ id: 'id_' + Date.now(), l: 'New item', i: '', c: '', f: false });
+  renderEditor();
+});
+
+btnPreview.addEventListener('click', () => {
+  previewArea.style.display = previewArea.style.display === 'none' ? 'block' : 'none';
+  previewJSON.value = JSON.stringify(currentData, null, 2);
+});
+
+btnReset.addEventListener('click', async () => {
+  if (!confirm('Reload from GitHub and discard local edits?')) return;
+  await loadFileFromGitHub(true);
+});
+
+btnSave.addEventListener('click', async () => {
+  const token = tokenInput.value.trim();
+  if (!token) {
+    if (!confirm('No token provided. You must provide a PAT to commit changes. Cancel save?')) return;
+    return;
+  }
+  // optionally remember token
+  if (rememberInput.checked) {
+    try { localStorage.setItem('qp_admin_token', token); } catch (e) {}
+  } else {
+    localStorage.removeItem('qp_admin_token');
+  }
+
+  // Ensure arrays are present
+  currentData.cricket = currentData.cricket || [];
+  currentData.mantis = currentData.mantis || [];
+
+  // make a neat, deterministic JSON ordering if you like - here we just stringify
+  const contentStr = JSON.stringify(currentData, null, 2);
+  const b64Content = b64EncodeUnicode(contentStr);
+
+  const apiUrl = apiBase();
+  const body = {
+    message: 'Update quick-peek.json via admin page',
+    content: b64Content,
+    sha: currentSha,
+    branch: branchInput.value
+  };
+
+  setStatus('Saving to GitHub...');
+  try {
+    const res = await fetch(apiUrl, {
+      method: 'PUT',
+      headers: {
+        'Authorization': 'token ' + token,
+        'Content-Type': 'application/json',
+        'Accept': 'application/vnd.github+json'
+      },
+      body: JSON.stringify(body)
+    });
+    const resp = await res.json();
+    if (!res.ok) {
+      console.error('GitHub save error', resp);
+      setStatus('Save failed: ' + (resp.message || res.statusText), false);
+      return;
+    }
+    // update sha and file preview
+    currentSha = resp.content && resp.content.sha ? resp.content.sha : currentSha;
+    fileSha.textContent = 'SHA: ' + currentSha;
+    setStatus('Saved successfully. Commit: ' + (resp.commit && resp.commit.html_url ? resp.commit.html_url : 'created'));
+    // refresh file content from GitHub to reflect canonical form
+    await loadFileFromGitHub(true);
+  } catch (e) {
+    console.error(e);
+    setStatus('Save error: ' + e.message, false);
+  }
+});
+
+// small HTML-escape for attribute values
+function escapeHtmlAttr(s) {
+  if (!s) return '';
+  return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// When page loads, optionally auto-load if token + repo info present
+(async function init() {
+  const params = new URLSearchParams(location.search);
+  // if you want quick-start with owner/repo/path supplied via querystring you can do that:
+  if (params.get('owner')) ownerInput.value = params.get('owner');
+  if (params.get('repo')) repoInput.value = params.get('repo');
+  if (params.get('path')) pathInput.value = params.get('path');
+  await loadSavedToken();
+  setStatus('Ready. Enter repo details and click "Load JSON".');
+})();
+</script>
+</body>
+</html>
