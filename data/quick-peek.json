@@ -1,9 +1,9 @@
 {
   "cricket": [
     {
-      "id": "id_1769569474255",
-      "l": "testing",
-      "i": "**test**\n- *****test*****",
+      "id": "id_1769597539076",
+      "l": "tests",
+      "i": "tesett",
       "c": "",
       "f": false
     },
@@ -296,13 +296,6 @@
     }
   ],
   "mantis": [
-    {
-      "id": "id_1769569701943",
-      "l": "test",
-      "i": "tesatdasfdsafdsafasdf",
-      "c": "",
-      "f": false
-    },
     {
       "c": "Dates",
       "f": false,
