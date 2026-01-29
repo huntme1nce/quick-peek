@@ -19,7 +19,7 @@
       "f": true,
       "i": "**Numerical Ranges with Same Units**\nUse **\"to\"** when the speaker dictates a range between two numbers for readability\nApply the appropriate symbol ($ and ISO codes) to only the first number in the range.\n**Apply the trillion/billion/million to only the 2nd number in the range.**\n**Examples:**\n✅ Revenue guidance of $2.4 to 2.5 billion\n**Dictated as: \"two point four to two point five billion dollars\"**\n✅ EPS guidance of $3.50 to 3.75\nDictated as: \"three fifty to three seventy-five\" (implied currency)\n**Special Range Rules**\n**When writing percentages ranges, apply the % symbol for both numbers in the range, even if the speaker only says it once**\n✅ EBITDA margin of 22% to 25%\nDictated as: \"twenty-two to twenty-five percent\"\n**When \"between...and\" is dictated: Retain \"and\"**\n✅ Expected growth between 15% and 20% (dictated \"and\", retain \"and\")\n**Value changes over time:** Retain \"to\"\n✅ grew from $100 to 150 million (change in value over time, indicating a $50 million increase)\n**Different units: Use \"to\" not hyphen**\n✅ 17% to $1.1 billion (not \"17%-$1.1 billion\")\n✅ improved from 13% to $1.3 billion (different units)\n**Exception for Positive/Negative Ranges:** When a range contains both positive/plus (+) and negative/minus (-) numbers, retain \"to\" for readability to avoid double symbols\n✅ +2% to -3% (clear and readable)\n❌ +2%--3% (confusing double hyphen)",
       "id": "a0c88b87-7d37-4ab5-96ed-8588ab4fe019",
-      "l": "RANGE"
+      "l": "RANGES"
     },
     {
       "c": "Formats",
@@ -68,7 +68,7 @@
       "f": false,
       "i": "Add numbers only when multiple speakers have identical tags\n*****Examples:***** [Analyst 1], [Analyst 2]\nNo numbers needed when companies differ: [Analyst] (AT&T) and [Analyst] (Morgan Stanley)",
       "id": "413a4970-e6fd-404e-8b45-9c05d5b5c2a1",
-      "l": "Numbering Rules Speaker Tag"
+      "l": "ST Numbering Rules"
     },
     {
       "c": "Custom",
@@ -301,7 +301,7 @@
       "f": false,
       "i": "**Standard Time Format: 9:00 A.M./P.M. format**",
       "id": "b1eb8ee6-e83b-471d-abb8-3765928f11ab",
-      "l": "TIME"
+      "l": "Time Formatting"
     },
     {
       "c": "Formats",
@@ -343,7 +343,7 @@
       "f": false,
       "i": "**QUICK REFERENCE:**\n✅** ALWAYS EDIT:** Core Pillars (Speaker Tags, Financial Figures, Proper Nouns)\n❌ **NEVER EDIT:** Speech patterns (um, uh, false starts, fillers)\nTerminal punctuation: Only correct form (. vs ?) where it already exists\n**Speaker Tags:** ✅ ALWAYS EDIT -> Format correctly, verify names/titles\n**Company Names:** ✅ ALWAYS EDIT -> Correct spelling, maintain official styling\t\n**Executive Names:** ✅ ALWAYS EDIT ->  Verify spelling and titles\n**Financial Figure:** ✅ ALWAYS EDIT -> Correct amounts, symbols, formatting\n**Financial Metrics:** ✅ ALWAYS EDIT -> Proper acronym formatting, accuracy\n**Industry Terms:** ✅ ALWAYS EDIT -> Correct technical terminology when business-critical\n**Currency Symbols:** ✅ ALWAYS EDIT -> Apply correct symbols and formatting\n**Percentages:** ✅ ALWAYS EDIT -> Use % symbol, proper decimal formatting\n**Verbal Crutches:** -> ❌ NEVER EDIT ->Preserve \"um,\" \"uh,\" \"you know\"\n**False Starts:** -> ❌ NEVER EDIT -> Maintain natural speech patterns\n**Conversation Fillers:** ❌ NEVER EDIT -> Leave \"I mean,\" \"like,\" \"so\" unchanged\n**General Misspellings:** ❌ NEVER EDIT -> Preserve non-business critical errors\n⚠️ **Key Rule:** The raw transcript is your source of truth for speech patterns. Only use audio to verify the three Core Pillars (speaker tags, proper nouns, financial figures) and terminal punctuations.\n\n🤔**Decision-Making Guide**\nWhen you notice a discrepancy between audio and transcript:\n**Is this a Core Pillar item? (Speaker tag, proper noun, or financial figure)**\n○ YES → Use the audio. Edit it accordingly while applying the Style Guide rules. \n○ NO → Go to step 2\n**Is this a speech pattern? (verbal crutches, fillers, contractions, etc.)** \n○ YES → Keep the transcript as-is (ignore audio differences) \n○ NO → Go to step 3\n**Is this general speech/casual conversation?** \n○ YES → Keep transcript as-is \n○ NO → Use your judgment. If it falls under the three core pillars, edit it accordingly while applying the Style Guide rules.\n\n🔒 Additional Preservation Rules\nAlways maintain:\nInvestor identifying information - Keep participant details as spoken\nNatural speech flow - Don't alter conversational tone or pacing\nCasual language - Preserve informal expressions and conversational tone\nOriginal contractions - If speaker said \"we'll\" but transcript shows \"we will,\" keep \"we will\"\nNever use the strike-through feature to remove content that should be preserved in the transcript.",
       "id": "96ca25ee-bf7e-42dd-b5eb-d5cbf5f276f9",
-      "l": "EDITING DECISION MATRIX"
+      "l": "EDITING PHILOSOPHY & DECISION FRAMEWORK"
     },
     {
       "c": "Custom",
@@ -421,13 +421,6 @@
       "i": "Before submitting, verify all items:\nSpeaker Tags\n☑️ Proper format without colons\n☑️ Consistent labeling throughout transcript\n☑️ Accurate names and titles per audio\n☑️ Format: First Name Last Name [Position] (Company) or First Name Last Name (Company)\nFinancial Figures\n☑️ Currency symbols placed correctly ($)\n☑️ Percentages use % symbol\n☑️ Ranges formatted properly (hyphen for same units, \"to\" for different)\n☑️ Basis points vs. percentage points used correctly\n☑️ Years written in full (2024, not '24)\n☑️ Numbers 1-9 spelled out, 10+ as numerals\nProper Nouns/Industry Terms\n☑️ Company names follow speaker's usage with correct spelling\n☑️ Executive names and titles accurate\n☑️ Industry terms correctly formatted\n☑️ Include diacritics (José García, Nestlé)\n☑️ Exclude trademark symbols unless spoken\nPunctuation & Language\n☑️ Questions end with (?), statements with (.)\n☑️ Natural speech patterns preserved\n☑️ No unnecessary editing of conversational elements\n☑️ Only edit Core Pillars + terminal punctuation\nOverall Quality\n☑️ Consistent formatting throughout\n☑️ Research verified for unfamiliar terms\n☑️ Financial accuracy maintained",
       "id": "c591f233-fd64-4c1f-b806-c02aad07cce3",
       "l": "MASTER QUALITY CHECKLIST"
-    },
-    {
-      "c": "Custom",
-      "f": false,
-      "i": "- Add numbers only when multiple speakers have identical tags\n- Examples: Moderator 1, Moderator 2, [Analyst 1], [Analyst 2], [Unknown Speaker 1], [Unknown Speaker 2]\nNo numbers needed when companies differ: [Analyst] (AT&T) and [Analyst] (Morgan Stanley)",
-      "id": "cbea3370-53d9-4f5c-835c-0f9d2f346a20",
-      "l": "ST Numbering Rules:"
     },
     {
       "c": "Custom",
