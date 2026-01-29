@@ -558,7 +558,7 @@
     {
       "c": "Custom",
       "f": false,
-      "i": "Formal Title Capitalization Rule\nWhen formal executive titles are spoken in the audio content, maintain proper capitalization as if written formally.\nExamples:\nAudio: \"Our chief executive officer will now provide an update\"\n✅ Transcript: \"Our Chief Executive Officer will now provide an update\"\nAudio: \"The chief financial officer reported strong results\"\n✅ Transcript: \"The Chief Financial Officer reported strong results\"\nAudio: \"Our chief operating officer oversees daily operations\"\n✅ Transcript: \"Our Chief Operating Officer oversees daily operations\"",
+      "i": "Formal Title Capitalization Rule\nWhen formal executive titles are spoken in the audio content, maintain proper capitalization as if written formally.\n***Examples:\nAudio: \"Our chief executive officer will now provide an update\"\n✅ Transcript: \"Our Chief Executive Officer will now provide an update\"\nAudio: \"The chief financial officer reported strong results\"\n✅ Transcript: \"The Chief Financial Officer reported strong results\"\nAudio: \"Our chief operating officer oversees daily operations\"\n✅ Transcript: \"Our Chief Operating Officer oversees daily operations\"",
       "id": "b528663c-d752-4662-924f-0b2d4c336f7c",
       "l": "Designation/Title Capitalization"
     },
