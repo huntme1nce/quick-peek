@@ -1,13 +1,6 @@
 {
   "cricket": [
     {
-      "id": "id_1769653541105",
-      "l": "teste",
-      "i": "testse",
-      "c": "",
-      "f": false
-    },
-    {
       "c": "Dates",
       "f": false,
       "i": "**Standard Format: Default to “DD Month YYYY” for all dates**\nEx.:\n-**\"January fifteenth\" → 15 January 2025**\n-**\"March three\" → 3 March 2025**\n-**\"January fifteenth twenty twenty-four\" → 15 January 2024**\n**Year Expansion: Always expand to four digits**\n-**\"twenty-five\" (referring to year) → 2025**\n-**\"twenty-four\" (referring to year) → 2024**\n**Date with Ordinal vs. Cardinal: Default to cardinal**\n-**\"twenty-first\" → 21**\n**Month Names: Spell out in full**\n-**Jan → January**\n**Numerical-only dates:**\n-**\"twelve ten twenty five\" → 10 December 2025**\n-**\"three fifteen twenty four\" → 15 March 2024**\n\n**Well-known Date Exceptions:**\n-**\"nine eleven\" → 9/11 (referring to September 11, 2001)**",
@@ -296,13 +289,6 @@
     }
   ],
   "mantis": [
-    {
-      "id": "id_1769653551021",
-      "l": "teste",
-      "i": "testest",
-      "c": "",
-      "f": false
-    },
     {
       "c": "Dates",
       "f": false,
