@@ -36,13 +36,6 @@
       "l": "Financial Metrics"
     },
     {
-      "c": "Formats",
-      "f": false,
-      "i": "**Mathematical Operations: Use + Symbol**\n- \"10 ml plus 10 ml of a drug\" → 10 ml + 10 ml of a drug\n**Estimates/Approximations: Use + After Numbers**\n- \"seven point five plus years\" → 7.5+ years\n- \"eight plus percent\" → 8%+\n**Positive/Negative Numbers: Use +/- Before Numbers**\n- \"positive eight percent\" → +8%\n- \"negative eight percent\" → -8%\n**Plus or Minus: Use ± Symbol**\n- ONLY when speakers explicitly say \"plus or minus\"\n- \"Plus or minus 75%\" → ±75%\n**Contextual/Narrative Use: Retain as Words**\n- \"Revenue plus operating costs\" → Revenue plus operating costs",
-      "id": "966ce20e-8055-42fc-88c0-d30a54e25ee1",
-      "l": "Plus, Minus, and Numerical Symbol Usage"
-    },
-    {
       "c": "Custom",
       "f": false,
       "i": "**Core Editing Principles**\n**ALWAYS EDIT (Critical Transcript Content)**\n**Speaker Tags:** Format as FirstName LastName [Position] (Company), or Operator\n**Financial Figures:** Correct amounts, symbols, and formatting\n**Company Names:** Verify spelling against Style Guide/official sources\n**Executive Names:** Verify spelling and titles\n**Industry Terms:** Ensure technical accuracy when transcript-critical\n**Punctuation & Sentence Structure:* Correct obvious errors (e.g., misplaced question marks), and fix transcript cuts by merging or splitting sentences appropriately\n***Fillers & Conjunctions:** Remove um, uh and unnecessary starters (And, But, So), only if doing so does not alter / impact the meaning of the sentence.\n**Run-on Sentences:** Break at natural conjunction points\n**Terminal Punctuation:** Ensure all sentences end correctly\n**Paragraph Splicing:** Keep paragraphs concise (max 6 lines) for readability\n**DO NOT EDIT (Preserve Authenticity)**\n**Speaker Intent:** Do not change meaning\n**Meaningful Fillers:** Keep you know, I mean, like, actually, well\n**False Starts:** Retain natural speech patterns\n**Conversational Flow:** Maintain authentic communication\n**Implied Dialogue/Direct Speech:** Do not add quotation marks to reported speech or implied dialogue, retain as is",
