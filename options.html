@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Application Settings</h1>
+        <div class="tabs">
+            <button class="tab-button" onclick="openTab('Settings')">Settings</button>
+            <button class="tab-button" onclick="openTab('RulesManagement')">Rules Management</button>
+            <button class="tab-button" onclick="openTab('ImportExport')">Import/Export</button>
+        </div>
+        <div id="Settings" class="tab-content">
+            <h2>General Settings</h2>
+            <label for="themeColor">Theme Color:</label>
+            <input type="color" id="themeColor" name="themeColor"><br><br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"><br><br>
+            <button onclick="saveSettings()">Save Settings</button>
+        </div>
+        <div id="RulesManagement" class="tab-content" style="display:none;">
+            <h2>Manage Rules</h2>
+            <label for="ruleName">Rule Name:</label>
+            <input type="text" id="ruleName" name="ruleName"><br><br>
+            <button onclick="addRule()">Add Rule</button>
+            <button onclick="removeRule()">Remove Rule</button>
+        </div>
+        <div id="ImportExport" class="tab-content" style="display:none;">
+            <h2>Import/Export</h2>
+            <button onclick="importData()">Import</button>
+            <button onclick="exportData()">Export</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
