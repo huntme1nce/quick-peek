@@ -1,0 +1,1 @@
+{\n  \"manifest_version\": 3,\n  \"name\": \"Quick Peek\",\n  \"version\": \"1.0\",\n  \"permissions\": [\n    \"tabs\",\n    \"http://*/*\",\n    \"https://*/*\"\n  ],\n  \"background\": {\n    \"service_worker\": \"background.js\"\n  },\n  \"content_scripts\": [{\n    \"matches\": [\n      \"<all_urls>\"\n    ],\n    \"js\": [\n      \"content.js\"\n    ]\n  }]\n}
